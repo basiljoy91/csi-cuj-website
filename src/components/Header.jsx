@@ -20,7 +20,7 @@ const Header = () => {
             <br/> {/* Line break on mobile only */}
             Student Chapter
             <br/> {/* Line break on mobile only */}
-            Central University of Jharkhandi
+            Central University of Jharkhand
           </h1>
         </div>
 

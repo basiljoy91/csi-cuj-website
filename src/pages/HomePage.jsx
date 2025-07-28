@@ -88,7 +88,7 @@ const HomePage = () => {
                 image={hodImg}
                 name="Dr. Subash Chandra Yadav"
                 title="Head of Department, Computer Science & Engineering"
-                description="Having 27+ years of Teaching and IT industry experience, Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering. Dr Yadav area of interest includes Artificial Intelligence, Machine Learning, Deep Learning, IOT, Data Mining, Cyber Security and Computer Applications. Dr Yadav has published several, books, book chapters and research papers, articles in reputed journals and conferences. Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019/2021 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
+                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering. His area of interest includes AI, ML, Deep Learning, IOT, Data Mining, Cyber Security and Computer Applications. He has published several books, book chapters and research papers, articles in reputed journals and conferences. Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019-21 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
               />
               
               <ProfileCard

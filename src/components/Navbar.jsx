@@ -108,7 +108,7 @@ const Navbar = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <ul className="absolute left-0 top-full w-48 bg-white text-csi-blue rounded-md shadow-lg py-1 origin-top-left hidden group-hover:block z-50 pointer-events-auto">
+                <ul className="absolute left-0 top-full w-48 bg-white text-csi-blue rounded-md shadow-lg origin-top-left hidden group-hover:block z-50 pointer-events-auto ">
                   {item.dropdown.map((year) => (
                     <li key={year}>
                       <Link

@@ -26,7 +26,7 @@ const HomePage = () => {
         <Header />
 
         {/* Space for Header above slider */}
-        <div className="h-28 md:h-36 "></div> {/* Adjust this height based on header size */}
+        <div className="h-44 md:h-48"></div> {/* Increased gap between header and slider */}
 
         <main>
           <section className="container mx-auto px-4 py-8 ">

@@ -28,7 +28,7 @@ const Header = () => {
         <img
           src={csiLogo}
           alt="CSI Logo"
-          className="h-32 w-auto object-contain flex-shrink-0" // Smaller height for mobile, prevent shrinking
+          className="h-32 w-auto object-contain flex-shrink-0 " // Smaller height for mobile, prevent shrinking
         />
       </div>
     </header>

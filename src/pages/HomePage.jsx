@@ -10,7 +10,7 @@ import whatIsCsImg from '../assets/what_is_cs_img.jpg';
 import whatCsiImg from '../assets/what_csi_img.jpg';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
-import trainerImg from '../assets/trainer_img.jpg';
+import kanojiaImg from '../assets/kanojia.jpg';
 
 const HomePage = () => {
   return (
@@ -92,7 +92,7 @@ const HomePage = () => {
               />
               
               <ProfileCard
-                image={trainerImg}
+                image={kanojiaImg}
                 name="Dr. Kanojia Sindhuben Babulal"
                 title="Asst. Prof. & Student Co-ordinator, CSI-CUJ"
                 description="Dr. Kanojia Sindhuben Babulal is an Assistant Professor in Department of Computer Science and Engineering at Central University of Jharkhand, Ranchi, India. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, Machine Learning."

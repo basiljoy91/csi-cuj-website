@@ -62,7 +62,7 @@ const Navbar = () => {
     },
     {
       name: 'Student Council',
-      path: '/student-council',
+      path: './StudentCouncil',
       dropdown: ['2024', '2023', '2022'],
       dropdownPath: '/student-council/',
     },

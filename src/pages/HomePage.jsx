@@ -11,6 +11,8 @@ import whatCsiImg from '../assets/what_csi_img.jpg';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
 import trainerImg from '../assets/trainer_img.jpg';
+import Footer from '../components/footer';
+
 
 const HomePage = () => {
   return (
@@ -97,15 +99,7 @@ const HomePage = () => {
               />
             </div>
           </section>
-
-          {/* Footer */}
-          <footer className="bg-csi-blue text-white py-8 px-4 md:px-8">
-            <div className="container mx-auto text-center">
-              <p>&copy; {new Date().getFullYear()} CSI Student Chapter CUJ. All rights reserved.</p>
-              <p className="mt-2">Designed by basiljoy</p>
-              {/* Add social media links or other footer content here */}
-            </div>
-          </footer>
+          <Footer/>
         </main>
       </div>
     </div>

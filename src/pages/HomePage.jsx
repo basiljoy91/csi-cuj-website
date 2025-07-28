@@ -38,8 +38,10 @@ const HomePage = () => {
 
           {/* What is CS? Section */}
           <InfoSection
-            title="What is Computer Society?"
-            content="Computer science is the study of computation and information. Computer science deals with theory of computation, algorithms, computational problems and the design of computer systems hardware and software. The field broadly encompasses its theoretical foundations, algorithms, and practical techniques for their implementation and application. Computer scientists work across various domains, from artificial intelligence and machine learning to cybersecurity, data science, and software engineering, impacting virtually every aspect of modern life. It's a dynamic and evolving field that drives innovation and technological advancement globally. This discipline involves understanding how computers work, how to program them, and how to use them to solve complex problems. It includes topics like data structures, algorithms, programming languages, computer architecture, operating systems, and software development methodologies. Students in computer science often engage in problem-solving, logical thinking, and creative design to develop new technologies and applications."
+            title="What is Computer Society of India?"
+            content="Computer Society of India (CSI) is the first and largest body of computer professionals in India. It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing computer professionals.
+           Having 488 student branches and rooted firmly at 73 different locations, CSI has plans of opening more chapters & activity centers in smaller towns of the country. The idea is to spread the knowledge, and provide opportunities to as many interested as possible. 
+            We Recognize Innovations And Indigenous Developments In The Field Of Information Technology In India. CSI Awards Are Instituted To Acknowledge And Motivate Individuals And Organizations Working In The ICT Field."
             image={whatIsCsImg}
             imageOnRight={false} // Image on left, content on right
           />

@@ -4,9 +4,25 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import { FaLinkedin } from 'react-icons/fa';
 import kanojiaImg from '../assets/kanoriya.jpg';
-import Manasmani from "../assets/ManasMani.jpg";
-import MansiVats from "../assets/MansiVats.jpg";
-import AdityaKumar from "../assets/AdityaKumar.jpg";
+
+// importing the images of the student council
+
+// import AdityaAshish from "../assets/StudentCouncil_images/AdityaAshish.jpg";
+// import AyeshaGupta from "../assets/StudentCouncil_images/AyeshaGupta.jpg";
+import ManasMani from "../assets/StudentCouncil_images/ManasMani.jpg";
+// import SachinYadav from "../assets/StudentCouncil_images/SachinYadav.jpg";
+// import ManshiKumari from "../assets/StudentCouncil_images/ManshiKumari.jpg";
+// import OmVishesh from "../assets/StudentCouncil_images/OmVishesh.jpg";
+// import RituKumari from "../assets/StudentCouncil_images/RituKumari.jpg";
+// import AkashKumar form "../assets/StudentCouncil_images/AkashKumar"
+// import VisheshSingh from "../assets/StudentCouncil_images/VisheshSIngh.jpg";
+import MansiVats from "../assets/StudentCouncil_images/MansiVats.jpg";
+import AdityaKumar from "../assets/StudentCouncil_images/AdityaKumar.jpg";
+// import ApurbaDas from "../assets/StudentCouncil_images/ApurbaDas.jpg";
+// import UjitRaj form "../assets/StudentCouncil_images/UjitRaj.jpg";
+// import BasilJoy form "../assets/StudentCouncil_images/BasilJoy.jpg";
+import HemantPrakash from "../assets/StudentCouncil_images/HemantPrakash.jpg"; 
+// import RishavMishra form "../assets/StudentCouncil_images/RishavMishra.jpg";
 
 
 const councilData = {
@@ -14,27 +30,27 @@ const councilData = {
     name: "Dr. Kanojia Sindhuben Babulal",
     position: "Asst. Prof. & Student Co-ordinator, CSI-CUJ",
     image:kanojiaImg,
-    email: "...",
-    linkedin: "https://linkedin.com/in/namarta"
+    email: "dr.kanojiasindhu@cuj.ac.in",
+    linkedin: "https://www.linkedin.com/in/dr-kanojia-sindhu-4a750818/"
   },
   members: [
     { name: "ADITYA ASHISH", position: "President", image: "/images/default.jpg", email: "aditya@example.com", linkedin: "#" },
     { name: "AYESHA GUPTA", position: "Vice President", image: "/images/default.jpg", email: "ayesha@example.com", linkedin: "#" },
-    { name: "MANAS MANI", position: "Vice President", image: Manasmani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9" },
-    { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "#" },
+    { name: "MANAS MANI", position: "Vice President", image: ManasMani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9/" },
+    { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "https://www.linkedin.com/in/sachin-kumar-yadav-196505291/" },
     { name: "MANSHI KUMARI", position: "Program Director", image: "/images/default.jpg", email: "manshi@example.com", linkedin: "#" },
-    { name: "OM VISHESH", position: "Program Director", image: "/images/default.jpg", email: "om@example.com", linkedin: "#" },
-    { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "#" },
+    { name: "OM VISHESH", position: "Program Director", image: "/images/default.jpg", email: "om@example.com", linkedin: "https://www.linkedin.com/in/omvishesh/" },
+    { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "https://www.linkedin.com/in/anshuman-samanta-4199361aa/" },
     { name: "RITU KUMARI", position: "Treasurer", image: "/images/default.jpg", email: "ritu@example.com", linkedin: "#" },
     { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },
-    { name: "VISHESH SINGH", position: "Technical Secretary", image: "/images/default.jpg", email: "vishesh@example.com", linkedin: "#" },
-    { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/public-profile/settings" },
+    { name: "VISHESH SINGH", position: "Technical Secretary", image: "/images/default.jpg", email: "vishesh@example.com", linkedin: "https://www.linkedin.com/in/vishesh-singh-3bb371249/" },
+    { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/in/manshi-vatsa-b1771b2b6/" },
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
     { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },
-    { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "ujit@example.com", linkedin: "#" },
+    { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "ujit@example.com", linkedin: " www.linkedin.com/in/ujit-raj-rathore-ab88a1241/" },
     { name: "BASIL JOY", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "basiljoygreen@gmail.com", linkedin: "http://linkedin.com/in/basil-joy-6b07511a7" },
-    { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "hemant@example.com", linkedin: "#" },
-    { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "hemant@example.com", linkedin: "#" }
+    { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: HemantPrakash, email: "hemant.23190503030@cuj.ac.in", linkedin: "https://www.linkedin.com/in/hemant-prakash-74381929b/" },
+    { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "rishavmishra0408@gmail.com", linkedin: "https://www.linkedin.com/in/rishav-mishra-516882276/" }
   ],
 };
 

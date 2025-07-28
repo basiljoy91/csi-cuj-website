@@ -81,21 +81,21 @@ const HomePage = () => {
                 image={vcImg}
                 name="Dr. Professor Kshiti Bhusan Das "
                 title="Vice Chancellor, CUJ"
-                description="Prof. Robert Smith is a visionary leader with a strong background in educational administration and a passion for fostering technological innovation in academia."
+                description="Professor Kshiti Bhusan Das, M.Com, Ph.D and D.Litt. (Commerce) from Utkal University, Bhubaneswar. He is a National Fellow of Indian Council of Social Science Research (ICSSR), New Delhi. He is an esteemed member of ICSSR’s Collegium of Eminent Social Scientists and a member of the Advisory Committee of ERC-ICSSR."
               />
 
               <ProfileCard
                 image={hodImg}
                 name="Dr. Subash Chandra Yadav"
                 title="Head of Department, Computer Science & Engineering"
-                description="Dr. Jane Doe is an accomplished academician with over 20 years of experience in computer science education and research. Her expertise lies in AI and Machine Learning."
+                description="Having 27+ years of Teaching and IT industry experience, Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering. Dr Yadav area of interest includes Artificial Intelligence, Machine Learning, Deep Learning, IOT, Data Mining, Cyber Security and Computer Applications. Dr Yadav has published several, books, book chapters and research papers, articles in reputed journals and conferences. Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019/2021 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
               />
               
               <ProfileCard
                 image={trainerImg}
                 name="Dr. Kanojia Sindhuben Babulal"
                 title="Asst. Prof. & Student Co-ordinator, CSI-CUJ"
-                description="Dr.Kanojia Sindhuben Babulal is an industry expert in Full Stack Development and Cloud Computing, bringing invaluable practical insights to our student chapter."
+                description="Dr. Kanojia Sindhuben Babulal is an Assistant Professor in Department of Computer Science and Engineering at Central University of Jharkhand, Ranchi, India. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, Machine Learning."
               />
             </div>
           </section>

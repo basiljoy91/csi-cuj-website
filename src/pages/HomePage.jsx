@@ -1,8 +1,9 @@
 // src/pages/HomePage.jsx
 import React from 'react';
 import Header from '../components/Header';
-import ImageSlider from '../components/ImageSlider';
+
 import Navbar from '../components/Navbar';
+import ImageSlider from '../components/ImageSlider';
 import InfoSection from '../components/InfoSection';
 import ProfileCard from '../components/ProfileCard';
 import universityBg from '../assets/university_bg.jpg'; // Faded background image

@@ -4,63 +4,59 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import ImageSlider from '../components/ImageSlider';
 
-// 🔧 Temporary placeholder arrays (fill these with real imports later)
-const inaugurationImages = []; // e.g., [inauguration1, inauguration2]
-const day1Images = [];         // e.g., [day1_1, day1_2]
-const day2Images = [];         // e.g., [day2_1, day2_2]
+// Image arrays for each section
+const inaugurationImages = []; 
+const day1Images = [];
+const day2Images = [];
 
-
-const Event = () => {
+const Events = () => {
   return (
     <>
     <Header/>
-    <Navbar/>
-    <div className="bg-gray-50 text-gray-800">
-      {/* 🟦 Page Header */}
-      <div className="text-center py-10">
-        <h1 className="text-4xl font-bold text-blue-800">CSI-CUJ 2024 Events</h1>
-    
-      </div>
+    <Navbar />
 
-      {/* 🟨 Inauguration Section */}
-      <section className="max-w-6xl mx-auto px-6 py-10">
-        <h2 className="text-3xl font-semibold text-blue-700 mb-4">Inauguration Ceremony</h2>
-        <ImageSlider images={inaugurationImages} />
-        <p className="mt-6 text-justify text-gray-700 leading-relaxed">
-          The grand inauguration of the national seminar began with a welcome address by distinguished faculty,
-          followed by enlightening speeches from guest speakers. The event set the tone for two days of
-          thought-provoking discussions on the intersection of Cybersecurity, Artificial Intelligence, and Machine Learning.
-        </p>
+      {/* CSI Student Chapter Inauguration */}
+      <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
+        <div className="md:w-1/2 w-full">
+          <ImageSlider images={inaugurationImages} />
+        </div>
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
+          <p className="text-lg text-justify">
+            The inauguration marked the beginning of a new journey in technological collaboration and student empowerment. Dignitaries from the CSI council graced the occasion...
+          </p>
+        </div>
       </section>
 
-      {/* 🟩 Day 1 Section */}
-      <section className="max-w-6xl mx-auto px-6 py-10 bg-gray-100 rounded-xl shadow-md mt-10">
-            <p className="mt-2 text-lg text-gray-600">A Two-Day National Seminar on Cybersecurity Using AI/ML</p>
-        <h2 className="text-3xl font-semibold text-blue-700 mb-4">Day 1 - Seminar Highlights</h2>
-        <ImageSlider images={day1Images} />
-        <p className="mt-6 text-justify text-gray-700 leading-relaxed">
-          Day 1 of the seminar featured technical paper presentations and keynote sessions by experts in
-          Cybersecurity. Topics included secure network design, AI-driven threat detection, and ethical hacking.
-          The audience engaged actively with the speakers, fostering a rich academic dialogue.
-        </p>
+      {/* Day 1 of Seminar */}
+      <section className="flex flex-col md:flex-row-reverse items-center gap-6 px-6 py-12 bg-gray-100">
+        <div className="md:w-1/2 w-full">
+          <ImageSlider images={day1Images} />
+        </div>
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
+          <p className="text-lg text-justify">
+            Day 1 featured keynote sessions from cybersecurity experts and student paper presentations. It sparked insightful discussions and technical learning...
+          </p>
+        </div>
       </section>
 
-      {/* 🟦 Day 2 Section */}
-      <section className="max-w-6xl mx-auto px-6 py-10">
-        <h2 className="text-3xl font-semibold text-blue-700 mb-4">Day 2 - Seminar Highlights</h2>
-        <ImageSlider images={day2Images} />
-        <p className="mt-6 text-justify text-gray-700 leading-relaxed">
-          The final day included a hands-on workshop on AI in cybersecurity, followed by a panel discussion on
-          future career prospects. Participants shared their insights and experiences. The event concluded with
-          a formal vote of thanks and certificate distribution to participants and volunteers.
-        </p>
+      {/* Day 2 of Seminar */}
+      <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
+        <div className="md:w-1/2 w-full">
+          <ImageSlider images={day2Images} />
+        </div>
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">Day 2 – National Seminar</h2>
+          <p className="text-lg text-justify">
+            Day 2 included hands-on sessions and a panel discussion on AI-driven security. The seminar concluded with certificate distribution and future collaboration goals...
+          </p>
+        </div>
       </section>
 
-
-       <Footer /> 
-    </div>
+      <Footer />
     </>
   );
 };
 
-export default Event;
+export default Events;

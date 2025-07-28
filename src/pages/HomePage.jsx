@@ -10,7 +10,8 @@ import whatIsCsImg from '../assets/what_is_cs_img.jpg';
 import whatCsiImg from '../assets/what_csi_img.jpg';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
-import trainerImg from '../assets/trainer_img.jpg';
+import kanojiaImg from '../assets/kanoriya.jpg';
+// import trainerImg from '../assets/trainer_img.jpg';  
 import Footer from '../components/footer';
 
 

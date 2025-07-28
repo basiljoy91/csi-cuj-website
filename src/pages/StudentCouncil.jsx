@@ -3,19 +3,24 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import { FaLinkedin } from 'react-icons/fa';
+import kanojiaImg from '../assets/kanoriya.jpg';
+import Manasmani from "../assets/ManasMani.jpg";
+import MansiVats from "../assets/MansiVats.jpg";
+import AdityaKumar from "../assets/AdityaKumar.jpg";
+
 
 const councilData = {
   coordinator: {
-    name: "NAMARTA DEY",
-    position: "Student Coordinator",
-    image: "/images/default.jpg",
-    email: "namarta@example.com",
+    name: "Dr. Kanojia Sindhuben Babulal",
+    position: "Asst. Prof. & Student Co-ordinator, CSI-CUJ",
+    image:kanojiaImg,
+    email: "...",
     linkedin: "https://linkedin.com/in/namarta"
   },
   members: [
     { name: "ADITYA ASHISH", position: "President", image: "/images/default.jpg", email: "aditya@example.com", linkedin: "#" },
     { name: "AYESHA GUPTA", position: "Vice President", image: "/images/default.jpg", email: "ayesha@example.com", linkedin: "#" },
-    { name: "MANAS MANI", position: "Vice President", image: "/images/default.jpg", email: "manas@example.com", linkedin: "#" },
+    { name: "MANAS MANI", position: "Vice President", image: Manasmani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9" },
     { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "#" },
     { name: "MANSHI KUMARI", position: "Program Director", image: "/images/default.jpg", email: "manshi@example.com", linkedin: "#" },
     { name: "OM VISHESH", position: "Program Director", image: "/images/default.jpg", email: "om@example.com", linkedin: "#" },
@@ -23,8 +28,8 @@ const councilData = {
     { name: "RITU KUMARI", position: "Treasurer", image: "/images/default.jpg", email: "ritu@example.com", linkedin: "#" },
     { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },
     { name: "VISHESH SINGH", position: "Technical Secretary", image: "/images/default.jpg", email: "vishesh@example.com", linkedin: "#" },
-    { name: "MANSHI VATSA", position: "Technical Secretary", image: "/images/default.jpg", email: "mvatsa@example.com", linkedin: "#" },
-    { name: "ADITYA KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "adityak@example.com", linkedin: "#" },
+    { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/public-profile/settings" },
+    { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
     { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba@example.com", linkedin: "#" },
     { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "ujit@example.com", linkedin: "#" },
     { name: "BASIL JOY", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "joy@example.com", linkedin: "#" },

@@ -22,14 +22,14 @@ const HomePage = () => {
       ></div>
 
       {/* Content Overlay */}
-      <div className="relative z-10">
+      <div className="relative z-10 text-justify">
         <Header />
 
         {/* Space for Header above slider */}
-        <div className="h-28 md:h-36"></div> {/* Adjust this height based on header size */}
+        <div className="h-28 md:h-36 "></div> {/* Adjust this height based on header size */}
 
         <main>
-          <section className="container mx-auto px-4 py-8">
+          <section className="container mx-auto px-4 py-8 ">
             <ImageSlider />
           </section>
 

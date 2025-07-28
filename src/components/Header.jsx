@@ -5,7 +5,7 @@ import csiLogo from '../assets/csi_logo.png'; // Make sure paths are correct
 
 const Header = () => {
   return (
-    <header className="absolute top-0 left-0 right-0 z-20 p-4 animate-fade-in">
+    <header className="bg-csi-blue text-white py-4 shadow">
       {/* White background container for logos and text */}
       <div className="bg-white rounded-lg shadow-md p-4 flex md:flex-row items-center\\ justify-center space-y-4 md:space-y-0 md:space-x-8 mx-auto">
         {/* Left section: University Logo + Text */}

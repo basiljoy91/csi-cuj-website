@@ -95,7 +95,7 @@ const Navbar = () => {
         <ul className="hidden md:flex flex-grow justify-center items-center space-x-8 w-full">
           {navItems.map((item) => (
             item.dropdown ? (
-              <div
+              <li
                 key={item.name}
                 className="relative group"
                 onMouseEnter={() => setDropdownOpen(item.name.toLowerCase().replace(' ', '-'))}
@@ -128,7 +128,7 @@ const Navbar = () => {
                     ))}
                   </ul>
                 )}
-              </div>
+              </li>
             ) : (
               <li key={item.name} className="relative group">
                 <Link

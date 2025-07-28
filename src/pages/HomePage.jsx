@@ -79,16 +79,16 @@ const HomePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <ProfileCard
                 image={vcImg}
-                name="Dr. Professor Kshiti Bhusan Das "
+                name=" Prof.(Dr.) Kshiti Bhusan Das "
                 title="Vice Chancellor, CUJ"
                 description="Professor Kshiti Bhusan Das, M.Com, Ph.D and D.Litt. (Commerce) from Utkal University, Bhubaneswar. He is a National Fellow of Indian Council of Social Science Research (ICSSR), New Delhi. He is an esteemed member of ICSSR’s Collegium of Eminent Social Scientists and a member of the Advisory Committee of ERC-ICSSR."
               />
 
               <ProfileCard
                 image={hodImg}
-                name="Dr. Subash Chandra Yadav"
+                name="Prof.(Dr.) Subash Chandra Yadav"
                 title="Head of Department, Computer Science & Engineering"
-                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering. His area of interest includes AI, ML, Deep Learning, IOT, Data Mining, Cyber Security and Computer Applications. He has published several books, book chapters and research papers, articles in reputed journals and conferences. Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019-21 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
+                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering.  Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019-21 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
               />
               
               <ProfileCard

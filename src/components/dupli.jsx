@@ -62,7 +62,7 @@ const Navbar = () => {
     },
     {
       name: 'Student Council',
-      path: './StudentCouncil',
+      path: '/student-council',
       dropdown: ['2024', '2023', '2022'],
       dropdownPath: '/student-council/',
     },
@@ -95,35 +95,40 @@ const Navbar = () => {
         <ul className="hidden md:flex flex-grow justify-center items-center space-x-8 w-full">
           {navItems.map((item) => (
             item.dropdown ? (
-              <li
+              <div
                 key={item.name}
                 className="relative group"
+                onMouseEnter={() => setDropdownOpen(item.name.toLowerCase().replace(' ', '-'))}
+                onMouseLeave={closeAllDropdowns}
               >
                 <button
                   className="py-2 px-4 hover:bg-white hover:text-csi-blue rounded-md transition-colors duration-300 focus:outline-none flex items-center"
                   tabIndex={0}
                 >
                   {item.name}
-                  <svg className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className={`ml-2 w-4 h-4 transition-transform duration-300 ${dropdownOpen === item.name.toLowerCase().replace(' ', '-') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <ul className="absolute left-0 top-full w-48 bg-white text-csi-blue rounded-md shadow-lg py-1 origin-top-left hidden group-hover:block z-50 pointer-events-auto">
-                  {item.dropdown.map((year) => (
-                    <li key={year}>
-                      <Link
-                        to={`${item.dropdownPath}${year}`}
-                        onClick={() => {
-                          setIsMenuOpen(false); // Only for mobile
-                        }}
-                        className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
-                      >
-                        {year}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </li>
+                {dropdownOpen === item.name.toLowerCase().replace(' ', '-') && (
+                  <ul className="absolute left-0 mt-2 w-48 bg-white text-csi-blue rounded-md shadow-lg py-1 animate-fade-in origin-top-left">
+                    {item.dropdown.map((year) => (
+                      <li key={year}>
+                        <Link
+                          to={`${item.dropdownPath}${year}`}
+                          onClick={() => {
+                            closeAllDropdowns();
+                            setIsMenuOpen(false); // Close mobile menu on click
+                          }}
+                          className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
+                        >
+                          {year}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             ) : (
               <li key={item.name} className="relative group">
                 <Link

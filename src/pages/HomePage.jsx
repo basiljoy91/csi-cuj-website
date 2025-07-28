@@ -24,14 +24,14 @@ const HomePage = () => {
       ></div>
 
       {/* Content Overlay */}
-      <div className="relative z-10">
+      <div className="relative z-10 text-justify">
         <Header />
 
         {/* Space for Header above slider */}
-        <div className="h-28 md:h-36"></div> {/* Adjust this height based on header size */}
+        <div className="h-28 md:h-36 "></div> {/* Adjust this height based on header size */}
 
         <main>
-          <section className="container mx-auto px-4 py-8">
+          <section className="container mx-auto px-4 py-8 ">
             <ImageSlider />
           </section>
 
@@ -40,8 +40,10 @@ const HomePage = () => {
 
           {/* What is CS? Section */}
           <InfoSection
-            title="What is Computer Society?"
-            content="Computer science is the study of computation and information. Computer science deals with theory of computation, algorithms, computational problems and the design of computer systems hardware and software. The field broadly encompasses its theoretical foundations, algorithms, and practical techniques for their implementation and application. Computer scientists work across various domains, from artificial intelligence and machine learning to cybersecurity, data science, and software engineering, impacting virtually every aspect of modern life. It's a dynamic and evolving field that drives innovation and technological advancement globally. This discipline involves understanding how computers work, how to program them, and how to use them to solve complex problems. It includes topics like data structures, algorithms, programming languages, computer architecture, operating systems, and software development methodologies. Students in computer science often engage in problem-solving, logical thinking, and creative design to develop new technologies and applications."
+            title="What is Computer Society of India?"
+            content="Computer Society of India (CSI) is the first and largest body of computer professionals in India. It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing computer professionals.
+           Having 488 student branches and rooted firmly at 73 different locations, CSI has plans of opening more chapters & activity centers in smaller towns of the country. The idea is to spread the knowledge, and provide opportunities to as many interested as possible. 
+            We Recognize Innovations And Indigenous Developments In The Field Of Information Technology In India. CSI Awards Are Instituted To Acknowledge And Motivate Individuals And Organizations Working In The ICT Field."
             image={whatIsCsImg}
             imageOnRight={false} // Image on left, content on right
           />
@@ -79,23 +81,23 @@ const HomePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <ProfileCard
                 image={vcImg}
-                name="Dr. Professor Kshiti Bhusan Das "
+                name=" Prof.(Dr.) Kshiti Bhusan Das "
                 title="Vice Chancellor, CUJ"
-                description="Prof. Robert Smith is a visionary leader with a strong background in educational administration and a passion for fostering technological innovation in academia."
+                description="Professor Kshiti Bhusan Das, M.Com, Ph.D and D.Litt. (Commerce) from Utkal University, Bhubaneswar. He is a National Fellow of Indian Council of Social Science Research (ICSSR), New Delhi. He is an esteemed member of ICSSR’s Collegium of Eminent Social Scientists and a member of the Advisory Committee of ERC-ICSSR."
               />
 
               <ProfileCard
                 image={hodImg}
-                name="Dr. Subash Chandra Yadav"
+                name="Prof.(Dr.) Subash Chandra Yadav"
                 title="Head of Department, Computer Science & Engineering"
-                description="Dr. Jane Doe is an accomplished academician with over 20 years of experience in computer science education and research. Her expertise lies in AI and Machine Learning."
+                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering.  Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019-21 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
               />
               
               <ProfileCard
-                image={trainerImg}
+                image={kanojiaImg}
                 name="Dr. Kanojia Sindhuben Babulal"
                 title="Asst. Prof. & Student Co-ordinator, CSI-CUJ"
-                description="Dr.Kanojia Sindhuben Babulal is an industry expert in Full Stack Development and Cloud Computing, bringing invaluable practical insights to our student chapter."
+                description="Dr. Kanojia Sindhuben Babulal is an Assistant Professor in Department of Computer Science and Engineering at Central University of Jharkhand, Ranchi, India. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, Machine Learning."
               />
             </div>
           </section>

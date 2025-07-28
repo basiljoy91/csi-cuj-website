@@ -1,76 +1,65 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
+import { FaLinkedin } from 'react-icons/fa';
 
 const councilData = {
   coordinator: {
-    name: "Lorem Ipsum",
+    name: "NAMARTA DEY",
     position: "Student Coordinator",
-    image: "/images/apurba.jpg",
-    branch: "Lorem Branch",
-    year: "2024",
-    email: "lorem@ipsum.com",
+    image: "/images/default.jpg",
+    email: "namarta@example.com",
+    linkedin: "https://linkedin.com/in/namarta"
   },
   members: [
-    {
-      name: "Namarta Dey",
-      position: "Technical Head",
-      image: "/images/namarta.jpg",
-      branch: "Lorem Branch",
-      email: "namarta@example.com",
-    },
-    {
-      name: "Rahul Sharma",
-      position: "Design Lead",
-      image: "/images/rahul.jpg",
-      branch: "Lorem Branch",
-      email: "rahul@example.com",
-    },
-    {
-      name: "John Doe",
-      position: "Logistics Head",
-      image: "/images/default.jpg",
-      branch: "Lorem Branch",
-      email: "john@example.com",
-    },
-    {
-      name: "Jane Smith",
-      position: "Marketing Lead",
-      image: "/images/default.jpg",
-      branch: "Lorem Branch",
-      email: "jane@example.com",
-    },
-    // Add more dummy members as needed
+    { name: "ADITYA ASHISH", position: "President", image: "/images/default.jpg", email: "aditya@example.com", linkedin: "#" },
+    { name: "AYESHA GUPTA", position: "Vice President", image: "/images/default.jpg", email: "ayesha@example.com", linkedin: "#" },
+    { name: "MANAS MANI", position: "Vice President", image: "/images/default.jpg", email: "manas@example.com", linkedin: "#" },
+    { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "#" },
+    { name: "MANSHI KUMARI", position: "Program Director", image: "/images/default.jpg", email: "manshi@example.com", linkedin: "#" },
+    { name: "OM VISHESH", position: "Program Director", image: "/images/default.jpg", email: "om@example.com", linkedin: "#" },
+    { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "#" },
+    { name: "RITU KUMARI", position: "Treasurer", image: "/images/default.jpg", email: "ritu@example.com", linkedin: "#" },
+    { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },
+    { name: "VISHESH SINGH", position: "Technical Secretary", image: "/images/default.jpg", email: "vishesh@example.com", linkedin: "#" },
+    { name: "MANSHI VATSA", position: "Technical Secretary", image: "/images/default.jpg", email: "mvatsa@example.com", linkedin: "#" },
+    { name: "ADITYA KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "adityak@example.com", linkedin: "#" },
+    { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba@example.com", linkedin: "#" },
+    { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "ujit@example.com", linkedin: "#" },
+    { name: "BASIL JOY", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "joy@example.com", linkedin: "#" },
+    { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "hemant@example.com", linkedin: "#" },
+    { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "hemant@example.com", linkedin: "#" }
   ],
 };
 
-const ProfileCard = ({ name, position, image, branch, email }) => (
-  <div className="bg-white rounded-2xl shadow-md p-4 text-center transition-transform hover:scale-105 duration-300">
+const ProfileCard = ({ name, position, image, email, linkedin }) => (
+  <div className="bg-white rounded-xl shadow-md p-3 text-center hover:shadow-lg transition-all duration-300">
     <img
       src={image}
       alt={name}
-      className="w-28 h-28 mx-auto rounded-full object-cover mb-4 border-4 border-csi-blue"
+      className="w-24 h-24 mx-auto rounded-full object-cover mb-3 border-4 border-csi-blue"
     />
-    <h2 className="text-xl font-semibold text-csi-blue">{name}</h2>
+    <h3 className="text-lg font-semibold text-csi-blue">{name}</h3>
     <p className="text-sm text-gray-600">{position}</p>
-    <p className="text-sm">{branch}</p>
     <p className="text-sm text-gray-500">{email}</p>
+    {linkedin && (
+      <a href={linkedin} target="_blank" rel="noopener noreferrer" className="inline-block mt-2 text-csi-blue hover:text-blue-800">
+        <FaLinkedin size={20} />
+      </a>
+    )}
   </div>
 );
 
 const StudentCouncil = () => {
-  const { year } = useParams();
-
   return (
     <>
       <Header />
       <Navbar />
 
-      <div className="pt-32 px-6 bg-gray-50 min-h-screen">
+      <div className="pt-28 px-6 bg-gray-50 min-h-screen">
         <h1 className="text-3xl font-bold text-center text-csi-blue mb-10">
-          Student Council {year}
+          CSI STUDENT COUNCIL 2024–25
         </h1>
 
         {/* Student Coordinator */}
@@ -92,13 +81,12 @@ const StudentCouncil = () => {
             {councilData.members.map((member, index) => (
               <ProfileCard key={index} {...member} />
             ))}
-            
           </div>
         </div>
       </div>
-      <Footer /> {/* ✅ Add Footer here */}
+
+      <Footer />
     </>
-    
   );
 };
 

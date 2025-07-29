@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/csi-cuj-website/static/css/main.238ed18f.css",
+    "main.js": "/csi-cuj-website/static/js/main.b7293e42.js",
+    "static/media/vc_img.jpg": "/csi-cuj-website/static/media/vc_img.7225167143f161dd1373.jpg",
+    "static/media/BasilJoy.jpg": "/csi-cuj-website/static/media/BasilJoy.5e137c14ca85f0e1f3eb.jpg",
+    "static/media/RituKumari.jpg": "/csi-cuj-website/static/media/RituKumari.84898343a6d0c2551895.jpg",
+    "static/media/university_bg.jpg": "/csi-cuj-website/static/media/university_bg.ba8afbac66db2aac3fc8.jpg",
+    "static/media/AdityaKumar.jpg": "/csi-cuj-website/static/media/AdityaKumar.ef9f2a3ce7a52e447bfc.jpg",
+    "static/media/square_img3_3.jpg": "/csi-cuj-website/static/media/square_img3_3.d1cfb6f53ae63a29fa9f.jpg",
+    "static/media/square_img4_1.jpg": "/csi-cuj-website/static/media/square_img4_1.d1cfb6f53ae63a29fa9f.jpg",
+    "static/media/square_img4_2.jpg": "/csi-cuj-website/static/media/square_img4_2.d1cfb6f53ae63a29fa9f.jpg",
+    "static/media/square_img4_3.jpg": "/csi-cuj-website/static/media/square_img4_3.d1cfb6f53ae63a29fa9f.jpg",
+    "static/media/ManasMani.jpg": "/csi-cuj-website/static/media/ManasMani.f1c2970f94cf5d94ff31.jpg",
+    "static/media/UjitRaj.jpg": "/csi-cuj-website/static/media/UjitRaj.0d58493719b023e9a64d.jpg",
+    "static/media/HemantPrakash.jpg": "/csi-cuj-website/static/media/HemantPrakash.ae1ee1e91070da1115fa.jpg",
+    "static/media/square_img3_1.jpg": "/csi-cuj-website/static/media/square_img3_1.3ad90b64fb9c9b1c05d9.jpg",
+    "static/media/kanojia.jpg": "/csi-cuj-website/static/media/kanojia.bc225bb595e756e99473.jpg",
+    "static/media/MansiVats.jpg": "/csi-cuj-website/static/media/MansiVats.51566379e9ab104e8cf0.jpg",
+    "static/media/university_logo.png": "/csi-cuj-website/static/media/university_logo.765b20fc046ad6692a67.png",
+    "static/media/csi_logo.png": "/csi-cuj-website/static/media/csi_logo.7cacf6ad5a566c0d3840.png",
+    "static/media/hod_img.jpg": "/csi-cuj-website/static/media/hod_img.73ad1a6c2204d6df7599.jpg",
+    "index.html": "/csi-cuj-website/index.html",
+    "main.238ed18f.css.map": "/csi-cuj-website/static/css/main.238ed18f.css.map",
+    "main.b7293e42.js.map": "/csi-cuj-website/static/js/main.b7293e42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238ed18f.css",
+    "static/js/main.b7293e42.js"
+  ]
+}

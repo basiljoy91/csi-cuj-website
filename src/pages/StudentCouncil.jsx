@@ -12,8 +12,8 @@ import universityBg from '../assets/university_bg.jpg';
 // import AyeshaGupta from "../assets/StudentCouncil_images/AyeshaGupta.jpg";
 import ManasMani from "../assets/StudentCouncil_images/ManasMani.jpg";
 // import SachinYadav from "../assets/StudentCouncil_images/SachinYadav.jpg";
-// import ManshiKumari from "../assets/StudentCouncil_images/ManshiKumari.jpg";
-// import OmVishesh from "../assets/StudentCouncil_images/OmVishesh.jpg";
+import ManshiKumari from "../assets/StudentCouncil_images/ManshiKumari.jpg";
+import OmVishesh from "../assets/StudentCouncil_images/OmVishesh.jpg";
  import RituKumari from "../assets/StudentCouncil_images/RituKumari.jpg";
 // import AkashKumar form "../assets/StudentCouncil_images/AkashKumar"
 import VisheshSingh from "../assets/StudentCouncil_images/VisheshSingh.jpg";
@@ -39,8 +39,8 @@ const councilData = {
     { name: "AYESHA GUPTA", position: "Vice President", image: "/images/default.jpg", email: "ayesha@example.com", linkedin: "#" },
     { name: "MANAS MANI", position: "Vice President", image: ManasMani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9/" },
     { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "https://www.linkedin.com/in/sachin-kumar-yadav-196505291/" },
-    { name: "MANSHI KUMARI", position: "Program Director", image: "/images/default.jpg", email: "manshi@example.com", linkedin: "#" },
-    { name: "OM VISHESH", position: "Program Director", image: "/images/default.jpg", email: "om@example.com", linkedin: "https://www.linkedin.com/in/omvishesh/" },
+    { name: "MANSHI KUMARI", position: "Program Director", image: ManshiKumari, email: "mansi.22190503031@cuj.ac.in", linkedin: "https://www.linkedin.com/in/mansi-kumari-984537312" },
+    { name: "OM VISHESH", position: "Program Director", image: OmVishesh, email: "omvishesh123@gmail.com", linkedin: "https://www.linkedin.com/in/omvishesh/" },
     { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "https://www.linkedin.com/in/anshuman-samanta-4199361aa/" },
     { name: "RITU KUMARI", position: "Treasurer", image: RituKumari, email: "ritukumari2409@gmail.com", linkedin: "https://www.linkedin.com/in/ritu-kumari7585/" },
     { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },

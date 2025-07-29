@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "homepage": "https://basiljoy91.github.io/csi-cuj-website/",
-=======
->>>>>>> origin/main
-  "name": "csi-cuj-website",
+"name": "csi-cuj-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -19,7 +19,7 @@ import ManasMani from "../assets/StudentCouncil_images/ManasMani.jpg";
 import MansiVats from "../assets/StudentCouncil_images/MansiVats.jpg";
 import AdityaKumar from "../assets/StudentCouncil_images/AdityaKumar.jpg";
 // import ApurbaDas from "../assets/StudentCouncil_images/ApurbaDas.jpg";
-// import UjitRaj form "../assets/StudentCouncil_images/UjitRaj.jpg";
+import UjitRaj from "../assets/StudentCouncil_images/UjitRaj.jpg";
 // import BasilJoy form "../assets/StudentCouncil_images/BasilJoy.jpg";
 import HemantPrakash from "../assets/StudentCouncil_images/HemantPrakash.jpg"; 
 // import RishavMishra form "../assets/StudentCouncil_images/RishavMishra.jpg";
@@ -29,7 +29,7 @@ const councilData = {
   coordinator: {
     name: "Dr. Kanojia Sindhuben Babulal",
     position: "Asst. Prof. & Student Co-ordinator, CSI-CUJ",
-    image:kanojiaImg,
+    image: kanojiaImg,
     email: "dr.kanojiasindhu@cuj.ac.in",
     linkedin: "https://www.linkedin.com/in/dr-kanojia-sindhu-4a750818/"
   },
@@ -47,7 +47,7 @@ const councilData = {
     { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/in/manshi-vatsa-b1771b2b6/" },
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
     { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },
-    { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "ujit@example.com", linkedin: " www.linkedin.com/in/ujit-raj-rathore-ab88a1241/" },
+    { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: UjitRaj, email: "ujit.23190503060@cuj.ac.in", linkedin: " https://www.linkedin.com/in/ujit-raj-rathore-ab88a1241/" },
     { name: "BASIL JOY", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "basiljoygreen@gmail.com", linkedin: "http://linkedin.com/in/basil-joy-6b07511a7" },
     { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: HemantPrakash, email: "hemant.23190503030@cuj.ac.in", linkedin: "https://www.linkedin.com/in/hemant-prakash-74381929b/" },
     { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "rishavmishra0408@gmail.com", linkedin: "https://www.linkedin.com/in/rishav-mishra-516882276/" }

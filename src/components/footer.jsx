@@ -1,7 +1,23 @@
-import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import React, { useState } from 'react';
+import {FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
+  const [formData, setFormData] = useState({
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const mailtoLink = `mailto:csi@cuj.ac.in?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.email}\n\n${formData.message}`)}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <footer className="bg-csi-blue text-white pt-10 pb-6 px-6 md:px-20 mt-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm">
@@ -28,19 +44,26 @@ const Footer = () => {
         {/* Social & Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Connect With Us</h3>
-          <div className="flex gap-5 text-xl mb-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
-              <FaFacebook />
+          {/* email icon and address */}
+          <p className="flex items-center gap-2">
+            <FaEnvelope className="text-base" />
+            <a
+              href="mailto:csi@cuj.ac.in"
+              className="hover:underline transition-colors duration-200"
+            >
+              csi@cuj.ac.in
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
-              <FaInstagram />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
-              <FaLinkedin />
-            </a>
-          </div>
-          <p>Email: <a href="mailto:csi@cuj.ac.in" className="hover:underline transition-colors duration-200">csi@cuj.ac.in</a></p>
-          <p>Location: Central University of Jharkhand, Cheri-Manatu, Ranchi</p>
+          </p>
+          <br />
+          {/* address icon and location */}
+          <p className="flex items-start gap-2">
+            <FaMapMarkerAlt className="mt-1" />
+            <span>
+              Deptt. of CSE,
+              Central University of Jharkhand,<br />
+              Cheri-Manatu, Ranchi
+            </span>
+          </p>
         </div>
       </div>
 

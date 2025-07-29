@@ -44,7 +44,7 @@ const councilData = {
     { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "https://www.linkedin.com/in/anshuman-samanta-4199361aa/" },
     { name: "RITU KUMARI", position: "Treasurer", image: RituKumari, email: "ritukumari2409@gmail.com", linkedin: "https://www.linkedin.com/in/ritu-kumari7585/" },
     { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },
-    { name: "VISHESH SINGH", position: "Technical Secretary", image: VisheshSingh, email: "vishesh@example.com", linkedin: "https://www.linkedin.com/in/vishesh-singh-3bb371249/" },
+    { name: "VISHESH SINGH", position: "Technical Secretary", image: VisheshSingh, email: "vishusingh57682@gmail.com", linkedin: "https://www.linkedin.com/in/vishesh-singh-3bb371249/" },
     { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/in/manshi-vatsa-b1771b2b6/" },
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
     { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },

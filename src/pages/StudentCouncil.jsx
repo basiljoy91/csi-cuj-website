@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import { FaLinkedin } from 'react-icons/fa';
 import kanojiaImg from '../assets/kanojia.jpg';
+import universityBg from '../assets/university_bg.jpg';
 
 // importing the images of the student council
 
@@ -78,7 +79,10 @@ const StudentCouncil = () => {
       <Header />
       <Navbar />
 
-      <div className="pt-28 px-6 bg-gray-50 min-h-screen">
+      {/* Faded University Background */}
+      <div className="absolute inset-0 bg-cover bg-center opacity-10 -z-10" style={{ backgroundImage: `url(${universityBg})` }}></div>
+
+      <div className="pt-28 px-6 min-h-screen relative z-10">
         <h1 className="text-3xl font-bold text-center text-csi-blue mb-10">
           CSI STUDENT COUNCIL 2024–25
         </h1>

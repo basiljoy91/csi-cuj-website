@@ -108,7 +108,7 @@ const ImageSlider = ({ className }) => {
     >
       {/* Sliding container */}
       <div
-        className="absolute inset-0 flex transition-transform duration-700 ease-out"
+        className="absolute inset-0 flex transition-transform duration-[1000ms] ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, slideIndex) => (

@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar';
 import ImageSlider from '../components/ImageSlider';
 import InfoSection from '../components/InfoSection';
 import ProfileCard from '../components/ProfileCard';
-import universityBg from '../assets/university_bg.jpg';
 import whatIsCsImg from '../assets/what_is_cs_img.jpg';
 import whatCsiImg from '../assets/what_csi_img.jpg';
 import hodImg from '../assets/hod_img.jpg';
@@ -16,11 +15,6 @@ import Footer from '../components/footer';
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-dark-blue text-white overflow-hidden">
-      {/* Faded Background University Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-10"
-        style={{ backgroundImage: `url(${universityBg})` }}
-      ></div>
 
       {/* Content Overlay */}
       <div className="relative z-10 text-justify">

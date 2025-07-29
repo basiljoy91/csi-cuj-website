@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import { FaLinkedin } from 'react-icons/fa';
-import kanojiaImg from '../assets/kanoriya.jpg';
+import kanojiaImg from '../assets/kanojia.jpg';
 
 // importing the images of the student council
 

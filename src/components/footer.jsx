@@ -21,6 +21,7 @@ const Footer = () => {
             <li><a href="/student-council" className="hover:underline">Student Council</a></li>
             <li><a href="/events" className="hover:underline">Events</a></li>
             <li><a href="/contact" className="hover:underline">Contact</a></li>
+            <li><a href="https://cuj.ac.in/DCSE/CS&Edepartment.php" className="hover:underline">CSE-CUJ</a></li>  
           </ul>
         </div>
 
@@ -39,7 +40,7 @@ const Footer = () => {
             </a>
           </div>
           <p>Email: <a href="mailto:csi@cuj.ac.in" className="hover:underline">csi@cuj.ac.in</a></p>
-          <p>Location: CUJ, Brambe, Ranchi</p>
+          <p>Location: Central University of Jharkhand, Cheri-Manatu, Ranchi</p>
         </div>
       </div>
 

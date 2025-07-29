@@ -3,9 +3,9 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 const SLIDE_INTERVAL = 3000;
 
 const MOBILE_WIDTH = 640;
-const MOBILE_HEIGHT = 360;
+
 const DESKTOP_WIDTH = 900;
-const DESKTOP_HEIGHT = 506;
+
 
 const EventImageSlider = ({ images = [], className }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

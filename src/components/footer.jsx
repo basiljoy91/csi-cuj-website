@@ -55,14 +55,19 @@ const Footer = () => {
             </a>
           </p>
           <br />
-          {/* address icon and location */}
+         {/* address icon and location */}
           <p className="flex items-start gap-2">
             <FaMapMarkerAlt className="mt-1" />
-            <span>
-              Deptt. of CSE,
+            <a
+              href="https://www.google.com/maps/place/Central+University+of+Jharkhand,+Cheri-Manatu,+Ranchi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline transition-colors duration-200"
+            >
+              Deptt. of CSE,<br />
               Central University of Jharkhand,<br />
               Cheri-Manatu, Ranchi
-            </span>
+            </a>
           </p>
         </div>
       </div>

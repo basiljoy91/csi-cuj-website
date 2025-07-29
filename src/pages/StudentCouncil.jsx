@@ -20,7 +20,7 @@ import MansiVats from "../assets/StudentCouncil_images/MansiVats.jpg";
 import AdityaKumar from "../assets/StudentCouncil_images/AdityaKumar.jpg";
 // import ApurbaDas from "../assets/StudentCouncil_images/ApurbaDas.jpg";
 import UjitRaj from "../assets/StudentCouncil_images/UjitRaj.jpg";
-// import BasilJoy form "../assets/StudentCouncil_images/BasilJoy.jpg";
+import BasilJoy from "../assets/StudentCouncil_images/BasilJoy.jpg";
 import HemantPrakash from "../assets/StudentCouncil_images/HemantPrakash.jpg"; 
 // import RishavMishra form "../assets/StudentCouncil_images/RishavMishra.jpg";
 
@@ -48,7 +48,7 @@ const councilData = {
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
     { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },
     { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: UjitRaj, email: "ujit.23190503060@cuj.ac.in", linkedin: " https://www.linkedin.com/in/ujit-raj-rathore-ab88a1241/" },
-    { name: "BASIL JOY", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "basiljoygreen@gmail.com", linkedin: "http://linkedin.com/in/basil-joy-6b07511a7" },
+    { name: "BASIL JOY", position: "Co-Technical Secretary", image: BasilJoy, email: "basiljoygreen@gmail.com", linkedin: "http://linkedin.com/in/basil-joy-6b07511a7" },
     { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: HemantPrakash, email: "hemant.23190503030@cuj.ac.in", linkedin: "https://www.linkedin.com/in/hemant-prakash-74381929b/" },
     { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "rishavmishra0408@gmail.com", linkedin: "https://www.linkedin.com/in/rishav-mishra-516882276/" }
   ],

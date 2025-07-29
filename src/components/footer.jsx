@@ -17,11 +17,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/student-council" className="hover:underline">Student Council</a></li>
-            <li><a href="/events" className="hover:underline">Events</a></li>
-            <li><a href="/contact" className="hover:underline">Contact</a></li>
-            <li><a href="https://cuj.ac.in/DCSE/CS&Edepartment.php" className="hover:underline">CSE-CUJ</a></li>  
+            <li><a href="/" className="hover:underline transition-colors duration-200">Home</a></li>
+            <li><a href="/student-council" className="hover:underline transition-colors duration-200">Student Council</a></li>
+            <li><a href="/events" className="hover:underline transition-colors duration-200">Events</a></li>
+            <li><a href="/contact" className="hover:underline transition-colors duration-200">Contact</a></li>
+            <li><a href="https://cuj.ac.in/DCSE/CS&Edepartment.php" className="hover:underline transition-colors duration-200">CSE-CUJ</a></li>  
           </ul>
         </div>
 
@@ -29,17 +29,17 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Connect With Us</h3>
           <div className="flex gap-5 text-xl mb-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
               <FaFacebook />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
               <FaInstagram />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors duration-200">
               <FaLinkedin />
             </a>
           </div>
-          <p>Email: <a href="mailto:csi@cuj.ac.in" className="hover:underline">csi@cuj.ac.in</a></p>
+          <p>Email: <a href="mailto:csi@cuj.ac.in" className="hover:underline transition-colors duration-200">csi@cuj.ac.in</a></p>
           <p>Location: Central University of Jharkhand, Cheri-Manatu, Ranchi</p>
         </div>
       </div>
@@ -47,7 +47,7 @@ const Footer = () => {
       {/* Divider */}
       <div className="border-t border-white/30 mt-10 pt-4 text-center text-sm">
         <p>&copy; {new Date().getFullYear()} CSI Student Chapter CUJ. All rights reserved.</p>
-        <p className="mt-1 text-white/70">Designed by <span className="font-semibold"></span></p>
+        <p className="mt-1 text-white/70">Designed by <span className="font-semibold">basiljoy</span></p>
       </div>
     </footer>
   );

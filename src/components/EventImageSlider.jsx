@@ -2,11 +2,6 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 
 const SLIDE_INTERVAL = 3000;
 
-const MOBILE_WIDTH = 640;
-
-const DESKTOP_WIDTH = 900;
-
-
 const EventImageSlider = ({ images = [], className }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -57,18 +52,15 @@ const EventImageSlider = ({ images = [], className }) => {
 
   return (
     <div
-      className={`relative mx-auto rounded-3xl overflow-hidden bg-white border-4 border-blue-600 shadow-2xl shadow-blue-200/60 flex items-center justify-center ${className}`}
+      className={`relative w-full rounded-3xl overflow-hidden bg-white border-4 border-blue-600 shadow-2xl shadow-blue-200/60 ${className}`}
       style={{
-        width: '100%',
-        maxWidth: `${DESKTOP_WIDTH}px`,
-        minWidth: `${MOBILE_WIDTH}px`,
         aspectRatio: '16/9',
-        height: 'auto',
+        maxWidth: '100%',
       }}
       onMouseEnter={pauseAutoplay}
       onMouseLeave={resumeAutoplay}
     >
-      {/* Fade-only transition, fixed 16:9 aspect ratio */}
+      {/* Fade-only transition, responsive 16:9 aspect ratio */}
       <div className="absolute inset-0 w-full h-full">
         {images.map((img, idx) => (
           <img
@@ -77,7 +69,7 @@ const EventImageSlider = ({ images = [], className }) => {
             alt={`Event Slide ${idx + 1}`}
             className={`absolute inset-0 w-full h-full object-contain rounded-2xl shadow-xl transition-opacity duration-1000 ease-in-out ${idx === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
             loading="lazy"
-            style={{ objectFit: 'contain', objectPosition: 'center', width: '100%', height: '100%' }}
+            style={{ objectFit: 'contain', objectPosition: 'center' }}
           />
         ))}
       </div>

@@ -41,17 +41,17 @@ const HomePage = () => {
             imageOnRight={false}
           />
 
-          {/* What CSI Here? Section */}
+          {/* CUJ intro section */}
           <InfoSection
-            title="What CSI Student Chapter CUJ Offers?"
+            title="Central University of Jharkhand, Ranchi"
             content="The CSI Student Chapter at Central University of Jharkhand (CUJ) is dedicated to fostering a vibrant community for aspiring computer professionals. We provide a platform for students to enhance their technical skills, network with peers and industry experts, and stay updated with the latest advancements in computer science. Through workshops, seminars, coding competitions, and guest lectures, we aim to bridge the gap between academic knowledge and practical industry demands. Our initiatives encourage collaborative learning, problem-solving, and innovation, preparing students for successful careers in the ever-evolving tech landscape. We organize regular events that cover diverse topics, including web development, app development, cybersecurity, data science, and competitive programming. The chapter also facilitates opportunities for students to participate in national-level CSI events, presenting their projects and gaining valuable exposure. We believe in nurturing not just technical proficiency but also leadership and teamwork qualities among our members."
             image={whatCsiImg}
             imageOnRight={true}
           />
 
-          {/* What is Computer Science? Section */}
+          {/* DEpartment of CSE, CUJ */}
           <InfoSection
-            title="What is Computer Science?"
+            title="Department of Computer Science & Engineering, CUJ"
             content="Computer science is the study of computation and information. Computer science deals with theory of computation, algorithms, computational problems and the design of computer systems hardware and software. The field broadly encompasses its theoretical foundations, algorithms, and practical techniques for their implementation and application. Computer scientists work across various domains, from artificial intelligence and machine learning to cybersecurity, data science, and software engineering, impacting virtually every aspect of modern life. It's a dynamic and evolving field that drives innovation and technological advancement globally. This discipline involves understanding how computers work, how to program them, and how to use them to solve complex problems. It includes topics like data structures, algorithms, programming languages, computer architecture, operating systems, and software development methodologies. Students in computer science often engage in problem-solving, logical thinking, and creative design to develop new technologies and applications."
             image={whatIsCsImg}
             imageOnRight={false}
@@ -75,14 +75,14 @@ const HomePage = () => {
                 image={hodImg}
                 name="Prof.(Dr.) Subash Chandra Yadav"
                 title="Head of Department, Computer Science & Engineering"
-                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering.  Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research (Division -V) for the year 2019-21 and founder Chairman CSI- Varanasi Chapter; And ISCA in the capacity of Sectional Member, Sectional Recorder, and also Sectional President for the year 2013-14."
+                description="Dr. S.C. Yadav is a senior academician and researcher as well in the field of Computer Science and Engineering.  Apart from carrying academic responsibility he has contributed to Computer Society of India (CSI) as a National Chairman Education and Research for the year 2019-21 and founder Chairman CSI- Varanasi Chapter."
               />
               
               <ProfileCard
                 image={kanojiaImg}
                 name="Dr. Kanojia Sindhuben Babulal"
                 title="Asst. Prof. & Student Co-ordinator, CSI-CUJ"
-                description="Dr. Kanojia Sindhuben Babulal is an Assistant Professor in Department of Computer Science and Engineering at Central University of Jharkhand, Ranchi, India. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, Machine Learning."
+                description="Dr. Kanojia Sindhuben Babulal is an Asst. Professor in Department of Computer Science and Engineering at CUJ, Ranchi. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, ML."
               />
             </div>
           </section>

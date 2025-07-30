@@ -23,51 +23,64 @@ const day2Images = [squareImg3_3, squareImg4_1, squareImg4_2, squareImg4_3];
 
 const Events = () => {
   return (
-    <div className="min-h-screen overflow-x-hidden">
-      <Header/>
-      <Navbar />
+    <>
+    <Header/>
+    <Navbar />
 
       {/* CSI Student Chapter Inauguration */}
-      <section className="flex flex-col md:flex-row items-center gap-6 px-4 md:px-6 py-8 md:py-12 max-w-full">
-        <div className="w-full md:w-1/2">
+      <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
+        <div className="md:w-1/2 w-full">
           <EventImageSlider images={inaugurationImages} />
         </div>
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
           <p className="text-lg text-justify">
-            The inauguration marked the beginning of a new journey in technological collaboration and student empowerment. Dignitaries from the CSI council graced the occasion...
+            The inauguration of CSI Student Chapter, CUJ on <b>29th December, 2024</b>, marked the beginning of a new journey in technological collaboration and student empowerment of Central University of Jharkhand, Ranchi.
+            <br/>Dignitaries from the CSI council graced the occasion: 
+            <br/><b>Inagurated by:</b> Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI
           </p>
         </div>
       </section>
 
       {/* Day 1 of Seminar */}
-      <section className="flex flex-col md:flex-row-reverse items-center gap-6 px-4 md:px-6 py-8 md:py-12 bg-gray-100 max-w-full">
-        <div className="w-full md:w-1/2">
+      <section className="flex flex-col md:flex-row-reverse items-center gap-6 px-6 py-12 bg-gray-100">
+        <div className="md:w-1/2 w-full">
           <EventImageSlider images={day1Images} />
         </div>
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
           <p className="text-lg text-justify">
-            Day 1 featured keynote sessions from cybersecurity experts and student paper presentations. It sparked insightful discussions and technical learning...
-          </p>
+            <b>Inaugurated by : </b>Prof. P.K. Panda, Vice Chancellor(in-charge), CUJ
+            <br/><b>Chief Guest:</b> Prof. Ashutosh Kr. Singh, Director, IIIT Bhopal.
+            <br/><b>Guest of Honour: </b>Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI.
+            <br/><b>Dignitaries Present: </b>Professors and Heads of all Engineering Departments, invited guests, and students
+            <br /><b>Technical Sessions: </b><br/>
+              &emsp;• The future of cybersecurity in AI-driven ecosystems<br />
+            <br /> <b>Session Highlights:</b><br />
+              &emsp;• The future of cybersecurity in AI-driven ecosystems<br />
+              &emsp;• Threat intelligence through ML algorithms<br />
+              &emsp;• Securing digital infrastructure via blockchain<br />
+              &emsp;• Cloud security strategies<br />
+              &emsp;• Government and industrial perspectives on data safety
+        </p>
         </div>
       </section>
 
       {/* Day 2 of Seminar */}
-      <section className="flex flex-col md:flex-row items-center gap-6 px-4 md:px-6 py-8 md:py-12 max-w-full">
-        <div className="w-full md:w-1/2">
+      <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
+        <div className="md:w-1/2 w-full">
           <EventImageSlider images={day2Images} />
         </div>
-        <div className="w-full md:w-1/2">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Day 2 – National Seminar</h2>
-          <p className="text-base md:text-lg text-justify">
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">Day 2 – National Seminar</h2>
+          <p className="text-lg text-justify">
             Day 2 included hands-on sessions and a panel discussion on AI-driven security. The seminar concluded with certificate distribution and future collaboration goals...
           </p>
         </div>
       </section>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

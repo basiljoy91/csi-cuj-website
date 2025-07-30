@@ -32,9 +32,9 @@ const Events = () => {
         <div className="w-full md:w-1/2">
           <EventImageSlider images={inaugurationImages} />
         </div>
-        <div className="w-full md:w-1/2">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
-          <p className="text-base md:text-lg text-justify">
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
+          <p className="text-lg text-justify">
             The inauguration marked the beginning of a new journey in technological collaboration and student empowerment. Dignitaries from the CSI council graced the occasion...
           </p>
         </div>
@@ -45,9 +45,9 @@ const Events = () => {
         <div className="w-full md:w-1/2">
           <EventImageSlider images={day1Images} />
         </div>
-        <div className="w-full md:w-1/2">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
-          <p className="text-base md:text-lg text-justify">
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
+          <p className="text-lg text-justify">
             Day 1 featured keynote sessions from cybersecurity experts and student paper presentations. It sparked insightful discussions and technical learning...
           </p>
         </div>

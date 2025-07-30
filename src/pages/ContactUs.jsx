@@ -5,10 +5,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
 // Import profile images - you'll need to add these images to your assets folder
-import profile1 from '../assets/profile1.jpg'; // Dr. Priya Sharma
-import profile2 from '../assets/profile2.jpg'; // Rahul Singh
-import profile3 from '../assets/profile3.jpg'; // Anjali Gupta
-import profile4 from '../assets/profile4.jpg'; // Vikram Reddy
+import profile1 from '../assets/kanojia.jpg'; // student co-ordinator
+import profile2 from '../assets/profile2.jpg'; // president
+import profile3 from '../assets/profile3.jpg'; // vp-1
+import profile4 from '../assets/StudentCouncil_images/ManasMani.jpg'; // vp-2
 
 // Contact cards data with profile images
 const contactMembers = [
@@ -30,18 +30,18 @@ const contactMembers = [
   },
   {
     id: 3,
-    name: '',
+    name: 'Ayesha Gupta',
     role: 'Vice President, CSI CUJ',
     email: 'anjali.gupta@csicuj.org',
-    phone: '+91 87654 32109',
+    phone: '+91 0000000000',
     image: profile3,
   },
   {
     id: 4,
-    name: 'Vikram Reddy',
-    role: 'Secretary, CSI CUJ',
-    email: 'vikram.reddy@csicuj.org',
-    phone: '+91 76543 21098',
+    name: 'Manas Mani',
+    role: 'Vice President, CSI CUJ',
+    email: 'manas.22190503029@cuj.ac.in',
+    phone: '+91 0000000000',
     image: profile4,
   },
 ];

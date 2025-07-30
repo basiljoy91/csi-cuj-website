@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import StudentCouncil from './pages/StudentCouncil';
 import Event from './pages/Events';
 import ContactUsPage from './pages/ContactUs';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/student-council/:year" element={<StudentCouncil />} />
         <Route path="/events/:year" element={<Event />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
+        <Route path="/gallery" elements={<Gallery/>}/>
       </Routes>
     </Router>
   );

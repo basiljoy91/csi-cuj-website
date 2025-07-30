@@ -34,9 +34,9 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li><a href="/" className="hover:underline transition-colors duration-200">Home</a></li>
-            <li><a href="/student-council" className="hover:underline transition-colors duration-200">Student Council</a></li>
-            <li><a href="/events" className="hover:underline transition-colors duration-200">Events</a></li>
-            <li><a href="/contact" className="hover:underline transition-colors duration-200">Contact</a></li>
+            <li><a href="/student-council/:year" className="hover:underline transition-colors duration-200">Student Council</a></li>
+            <li><a href="/events/:year" className="hover:underline transition-colors duration-200">Events</a></li>
+            <li><a href="/contact-us" className="hover:underline transition-colors duration-200">Contact</a></li>
             <li><a href="https://cuj.ac.in/DCSE/CS&Edepartment.php" className="hover:underline transition-colors duration-200">CSE-CUJ</a></li>  
           </ul>
         </div>

@@ -67,7 +67,7 @@ const Navbar = () => {
       dropdownPath: '/student-council/',
     },
     { name: 'Contact Us', path: '/contact-us' },
-    { name: 'Gallery', path: '/contact-us' }
+    { name: 'Gallery', path: '/gallery' }
   ];
 
   return (

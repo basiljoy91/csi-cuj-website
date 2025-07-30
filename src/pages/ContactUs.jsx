@@ -18,6 +18,7 @@ const contactMembers = [
     role: 'Student Co-ordinator, CSI-CUJ',
     email: 'dr.kanojiasindhu@cuj.ac.in',
     phone: '+91  9415800952',
+    
     image: profile1,
   },
   {

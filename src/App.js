@@ -14,7 +14,7 @@ function App() {
         <Route path="/student-council/:year" element={<StudentCouncil />} />
         <Route path="/events/:year" element={<Event />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
-        <Route path="/gallery" elements={<Gallery/>}/>
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );

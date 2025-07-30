@@ -74,8 +74,8 @@ const Footer = () => {
 
       {/* Divider */}
       <div className="border-t border-white/30 mt-10 pt-4 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} CSI Student Chapter CUJ. All rights reserved.</p>
-        <p className="mt-1 text-white/70">Designed by <span className="font-semibold"></span></p>
+        <p>&copy; {new Date().getFullYear()} CSI Student Chapter, CUJ. All rights reserved.</p>
+        <p className="mt-1 text-white/70">Designed by <span className="font-semibold">CSI-CUJ</span></p>
       </div>
     </footer>
   );

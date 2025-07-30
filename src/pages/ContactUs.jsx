@@ -48,10 +48,9 @@ const contactMembers = [
 
 const ContactUsPage = () => {
   // Replace with your actual Google Maps embed URL
-  const googleMapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117283.4735515324!2d85.19168434316045!3d23.40795493414921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4f1013444e769%3A0xb35a96033d59e44d!2sCentral%20University%20of%20Jharkhand!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin";
-
+  const googleMapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5304.990112847291!2d85.25063117652269!3d23.43931170064601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4dd97ba3aaaab%3A0xd680750f0fd2ab4d!2sCentral%20University%20of%20Jharkhand!5e1!3m2!1sen!2sin!4v1753905282741!5m2!1sen!2sin" 
   // Replace with your actual Google Form embed URL
-  const googleFormEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd9t2f3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z/viewform?embedded=true";
+  const googleFormEmbedUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeRqeuwyi4mKqTXhwOyGc8hHo6MxxK1_FP0oWM6v8f7gkn8mg/viewform?usp=dialog";
 
   return (
     <div className="relative min-h-screen bg-gray-50 text-csi-blue overflow-hidden">

@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # === Load the CSV file ===
-csv_file = "src/assets/CSIMemberData/CSI-2024-2025.csv"  # Replace with your actual CSV file name
+csv_file = "src/CSIMemberData/CSI-2024-2025.csv"  # Replace with your actual CSV file name
 df = pd.read_csv(csv_file)
 
 # === Select and rename required columns ===
@@ -21,8 +21,8 @@ members_list = df.to_dict(orient="records")
 js_content = "const members = " + str(members_list).replace("True", "true").replace("False", "false") + ";\n\nexport default members;\n"
 
 # === Ask user for output folder and file name separately ===
-output_folder = "E:\csi-cuj-website\src\assets\CSIMemberData"
-output_filename = "CSI-2024-2025.js): "
+output_folder = "src/CSIMemberData"
+output_filename = "CSI-2024-2025.js "
 
 # === Ensure .js extension ===
 if not output_filename.endswith(".js"):

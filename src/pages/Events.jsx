@@ -35,7 +35,9 @@ const Events = () => {
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
           <p className="text-lg text-justify">
-            The inauguration marked the beginning of a new journey in technological collaboration and student empowerment. Dignitaries from the CSI council graced the occasion...
+            The inauguration of CSI Student Chapter, CUJ on <b>29th December, 2024</b>, marked the beginning of a new journey in technological collaboration and student empowerment of Central University of Jharkhand, Ranchi.
+            <br/>Dignitaries from the CSI council graced the occasion: 
+            <br/><b>Inagurated by:</b> Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI
           </p>
         </div>
       </section>
@@ -48,19 +50,19 @@ const Events = () => {
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
           <p className="text-lg text-justify">
-            <b>Inaugurated by:</b>
-            Prof. Kshiti Bhusan Das, Vice Chancellor, CUJ
-            <br/><b>Chief Guests:</b>
-            Prof. Ashutosh Kr. Singh, Director, IIIT Bhopal.
-            <br/>Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI
+            <b>Inaugurated by : </b>Prof. P.K. Panda, Vice Chancellor(in-charge), CUJ
+            <br/><b>Chief Guest:</b> Prof. Ashutosh Kr. Singh, Director, IIIT Bhopal.
+            <br/><b>Guest of Honour: </b>Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI.
             <br/><b>Dignitaries Present: </b>Professors and Heads of all Engineering Departments, invited guests, and students
-            Session Highlights:
-            The future of cybersecurity in AI-driven ecosystems
-            Threat intelligence through ML algorithms
-            Securing digital infrastructure via blockchain
-            Cloud security strategies
-            Government and industrial perspectives on data safety
-          </p>
+            <br /><b>Technical Sessions: </b><br/>
+              &emsp;• The future of cybersecurity in AI-driven ecosystems<br />
+            <br /> <b>Session Highlights:</b><br />
+              &emsp;• The future of cybersecurity in AI-driven ecosystems<br />
+              &emsp;• Threat intelligence through ML algorithms<br />
+              &emsp;• Securing digital infrastructure via blockchain<br />
+              &emsp;• Cloud security strategies<br />
+              &emsp;• Government and industrial perspectives on data safety
+        </p>
         </div>
       </section>
 

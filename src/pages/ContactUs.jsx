@@ -4,7 +4,13 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
-// Dummy data for contact cards
+// Import profile images - you'll need to add these images to your assets folder
+import profile1 from '../assets/profile1.jpg'; // Dr. Priya Sharma
+import profile2 from '../assets/profile2.jpg'; // Rahul Singh
+import profile3 from '../assets/profile3.jpg'; // Anjali Gupta
+import profile4 from '../assets/profile4.jpg'; // Vikram Reddy
+
+// Contact cards data with profile images
 const contactMembers = [
   {
     id: 1,
@@ -12,6 +18,7 @@ const contactMembers = [
     role: 'Faculty Advisor',
     email: 'priya.sharma@cuj.ac.in',
     phone: '+91 98765 43210',
+    image: profile1,
   },
   {
     id: 2,
@@ -19,6 +26,7 @@ const contactMembers = [
     role: 'President, CSI CUJ',
     email: 'rahul.singh@csicuj.org',
     phone: '+91 90123 45678',
+    image: profile2,
   },
   {
     id: 3,
@@ -26,6 +34,7 @@ const contactMembers = [
     role: 'Vice President, CSI CUJ',
     email: 'anjali.gupta@csicuj.org',
     phone: '+91 87654 32109',
+    image: profile3,
   },
   {
     id: 4,
@@ -33,6 +42,7 @@ const contactMembers = [
     role: 'Secretary, CSI CUJ',
     email: 'vikram.reddy@csicuj.org',
     phone: '+91 76543 21098',
+    image: profile4,
   },
 ];
 
@@ -71,6 +81,18 @@ const ContactUsPage = () => {
                   key={member.id}
                   className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group flex flex-col items-center text-center"
                 >
+                  {/* Profile Image */}
+                  <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-4 border-csi-blue shadow-lg">
+                    <img
+                      src={member.image}
+                      alt={`${member.name} profile`}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.target.src = 'https://via.placeholder.com/96x96/007bff/ffffff?text=' + member.name.charAt(0);
+                      }}
+                    />
+                  </div>
+                  
                   <h3 className="text-2xl font-semibold text-gray-800 mb-2 group-hover:text-csi-blue transition-colors duration-300">
                     {member.name}
                   </h3>

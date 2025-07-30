@@ -8,21 +8,21 @@ import Footer from '../components/footer';
 const contactMembers = [
   {
     id: 1,
-    name: 'Dr. Priya Sharma',
-    role: 'Faculty Advisor',
-    email: 'priya.sharma@cuj.ac.in',
-    phone: '+91 98765 43210',
+    name: 'Dr. Kanojia Sindhuben Babulal',
+    role: 'Student Co-ordinator, CSI-CUJ',
+    email: 'dr.kanojiasindhu@cuj.ac.in',
+    phone: '+91  9415800952',
   },
   {
     id: 2,
-    name: 'Rahul Singh',
+    name: 'Aditya Ashish',
     role: 'President, CSI CUJ',
     email: 'rahul.singh@csicuj.org',
     phone: '+91 90123 45678',
   },
   {
     id: 3,
-    name: 'Anjali Gupta',
+    name: '',
     role: 'Vice President, CSI CUJ',
     email: 'anjali.gupta@csicuj.org',
     phone: '+91 87654 32109',

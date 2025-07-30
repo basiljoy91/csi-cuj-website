@@ -48,7 +48,18 @@ const Events = () => {
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl font-bold mb-4">Day 1 – National Seminar</h2>
           <p className="text-lg text-justify">
-            Day 1 featured keynote sessions from cybersecurity experts and student paper presentations. It sparked insightful discussions and technical learning...
+            <b>Inaugurated by:</b>
+            Prof. Kshiti Bhusan Das, Vice Chancellor, CUJ
+            <br/><b>Chief Guests:</b>
+            Prof. Ashutosh Kr. Singh, Director, IIIT Bhopal.
+            <br/>Prof. A. K. Nayak, Advisor, IIBM Group & Former President, CSI
+            <br/><b>Dignitaries Present: </b>Professors and Heads of all Engineering Departments, invited guests, and students
+            Session Highlights:
+            The future of cybersecurity in AI-driven ecosystems
+            Threat intelligence through ML algorithms
+            Securing digital infrastructure via blockchain
+            Cloud security strategies
+            Government and industrial perspectives on data safety
           </p>
         </div>
       </section>

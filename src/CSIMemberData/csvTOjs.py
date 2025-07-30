@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import json  # ✅ Added to handle double-quoted string formatting
 
 # === Load the CSV file ===
 csv_file = "src/CSIMemberData/CSI-2024-2025.csv"  # Replace with your actual CSV file name
@@ -17,12 +18,12 @@ df["branch"] = "Computer Science Engineering"
 # === Convert to list of dictionaries ===
 members_list = df.to_dict(orient="records")
 
-# === Convert to JS array string ===
-js_content = "const members = " + str(members_list).replace("True", "true").replace("False", "false") + ";\n\nexport default members;\n"
+# ✅ Properly format with double quotes using `json.dumps`
+js_content = "const members = " + json.dumps(members_list, indent=2) + ";\n\nexport default members;\n"
 
 # === Ask user for output folder and file name separately ===
 output_folder = "src/CSIMemberData"
-output_filename = "CSI-2024-2025.js "
+output_filename = "CSI-2024-2025.js"
 
 # === Ensure .js extension ===
 if not output_filename.endswith(".js"):

@@ -22,26 +22,26 @@ const slides = [
     title: "Transforming Ideas into Reality",
     description: "Our community thrives on creativity and practical application. Explore cutting-edge technologies and contribute to impactful initiatives that shape the future.",
     buttonText: "View Events",
-    buttonLink: "/events"
+    buttonLink: "/events/:year"
   },
   {
     main: mainSliderImg3,
     title: "Empowering Future Tech Leaders",
     description: "CSI provides a platform for students to hone their skills, network with professionals, and gain real-world experience. Your journey to excellence starts here.",
     buttonText: "Meet Our Council",
-    buttonLink: "/student-council"
+    buttonLink: "/student-council/:year"
   },
   {
     main: mainSliderImg4,
     title: "A Hub for Digital Exploration",
-    description: "From coding challenges to cybersecurity workshops, we cover diverse areas of computer science. Discover your passion and grow your expertise.",
+    description: "From coding challenges to cybersecurity workshops, we cover diverse areas of computer science. Discover your passion and grow your expertise with CSI-CUJ.",
     buttonText: "Learn More",
-    buttonLink: "/about-us"
+    buttonLink: "/"
   },
   {
     main: mainSliderImg5,
     title: "Connecting Minds, Building Futures",
-    description: "Beyond academics, we foster a strong sense of community. Participate in social events, team projects, and build lasting connections.",
+    description: "Beyond academics, we foster a strong sense of community. Participate in technical events, team projects, enrich knowledge and build lasting connections.",
     buttonText: "See Gallery",
     buttonLink: "/gallery"
   },

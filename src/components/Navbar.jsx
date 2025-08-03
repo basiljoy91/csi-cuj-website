@@ -51,19 +51,19 @@ const Navbar = () => {
     {
       name: 'Membership',
       path: '/membership',
-      dropdown: ['2024', '2023', '2022'],
+      dropdown: ['2024–2025', 'University Membership',],
       dropdownPath: '/membership/',
     },
     {
       name: 'Events',
       path: '/events',
-      dropdown: ['2024', '2023', '2022'],
+      dropdown: ['2024–2025',],
       dropdownPath: '/events/',
     },
     {
       name: 'Student Council',
       path: './StudentCouncil',
-      dropdown: ['2024', '2023', '2022'],
+      dropdown: ['2024–2025',],
       dropdownPath: '/student-council/',
     },
     { name: 'Contact Us', path: '/contact-us' },

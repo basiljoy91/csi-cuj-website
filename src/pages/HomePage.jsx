@@ -5,8 +5,9 @@ import Navbar from '../components/Navbar';
 import ImageSlider from '../components/ImageSlider';
 import InfoSection from '../components/InfoSection';
 import ProfileCard from '../components/ProfileCard';
-import whatIsCsImg from '../assets/what_is_cs_img.jpg';
-import whatCsiImg from '../assets/what_csi_img.jpg';
+import CSEcuj from '../assets/Homepage/university_bg.jpg';
+import CUJimage from '../assets/Homepage/csecuj.jpg';
+import CSiLogo from '../assets/Homepage/csilogo.png';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
 import kanojiaImg from '../assets/kanojia.jpg';
@@ -41,7 +42,7 @@ const HomePage = () => {
                 <br/><br/>We Recognize Innovations And Indigenous Developments In The Field Of Information Technology In India. CSI Awards Are Instituted To Acknowledge And Motivate Individuals And Organizations Working In The ICT Field.
               </>
           }
-            image={whatIsCsImg}
+            image={CSiLogo}
             imageOnRight={false}
           />
 
@@ -55,7 +56,7 @@ const HomePage = () => {
                 <br/><br/><b>VISION:</b> To be a flagship university firmly rooted in Bharatiya Culture and its rich Spiritual legacy; fostering an open, rational and scientific temprament for a better world  
               </>
               }
-            image={whatCsiImg}
+            image={CSEcuj}
             imageOnRight={true}
           />
 
@@ -68,7 +69,7 @@ const HomePage = () => {
               <br/><br/><b>Vision:</b> To proactively enable learners as leading computer scientists and engineers through a cutting edge learning experience that fosters holistic development for promoting professional & academic excellence in pioneering the advancements in technology enabled socio-economic upliftment.
             </>
             }
-            image={whatIsCsImg}
+            image={CUJimage}
             imageOnRight={false}
           />
           

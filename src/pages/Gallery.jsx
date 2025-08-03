@@ -4,43 +4,92 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
+// Import images from assets
+import a from '../assets/Gallery/National_Seminar/day 1/1.jpg';
+import b from '../assets/Gallery/National_Seminar/day 1/2.jpg';
+import c from '../assets/Gallery/National_Seminar/day 1/3.jpg';
+import d from '../assets/Gallery/National_Seminar/day 1/4.jpg';
+import e from '../assets/Gallery/National_Seminar/day 1/5.jpg';
+import f from '../assets/Gallery/National_Seminar/day 1/6.jpg';
+import g from '../assets/Gallery/National_Seminar/day 1/7.jpg';
+import h from '../assets/Gallery/National_Seminar/day 1/8.jpg';
+import i from '../assets/Gallery/National_Seminar/day 1/9.jpg';
+import j from '../assets/Gallery/National_Seminar/day 1/10.jpg';
+import k from '../assets/Gallery/National_Seminar/day 1/11.jpg';
+
+//day 2
+import day2a from '../assets/Gallery/National_Seminar/day 2/a.jpg';
+import day2b from '../assets/Gallery/National_Seminar/day 2/b.jpg';
+import day2c from '../assets/Gallery/National_Seminar/day 2/c.jpg';
+import day2d from '../assets/Gallery/National_Seminar/day 2/d.jpg';
+import day2e from '../assets/Gallery/National_Seminar/day 2/e.jpg';
+import day2f from '../assets/Gallery/National_Seminar/day 2/f.jpg';
+import day2g from '../assets/Gallery/National_Seminar/day 2/g.jpg';
+import day2h from '../assets/Gallery/National_Seminar/day 2/h.jpg';
+import day2i from '../assets/Gallery/National_Seminar/day 2/i.jpg';
+import day2j from '../assets/Gallery/National_Seminar/day 2/j.jpg';
+import day2k from '../assets/Gallery/National_Seminar/day 2/k.jpg';
+import day2l from '../assets/Gallery/National_Seminar/day 2/l.jpg';
+
+
+import mainSliderImg2 from '../assets/main_slider_img2.jpg';
+import mainSliderImg3 from '../assets/main_slider_img3.jpg';
+import mainSliderImg4 from '../assets/main_slider_img4.jpg';
+import mainSliderImg5 from '../assets/main_slider_img5.jpg';
+import hodImg from '../assets/hod_img.jpg';
+import vcImg from '../assets/vc_img.jpg';
+import kanojiaImg from '../assets/kanojia.jpg';
+import universityBg from '../assets/university_bg.jpg';
+
 const galleryData = [
   {
     id: 1,
     title: "CSI Inauguration",
     images: [
-      { src: "https://drive.google.com/uc?export=view&id=1-ABC123DEF456GHI789JKL", alt: "Inauguration Ceremony - Chief Guest Address" },
-      { src: "https://drive.google.com/uc?export=view&id=1-DEF456GHI789JKL012MNO", alt: "Inauguration Ceremony - Certificate Distribution" },
-      { src: "https://drive.google.com/uc?export=view&id=1-GHI789JKL012MNO345PQR", alt: "Inauguration Ceremony - Group Photo" },
-      { src: "https://drive.google.com/uc?export=view&id=1-JKL012MNO345PQR678STU", alt: "Inauguration Ceremony - Student Interaction" },
-      { src: "https://drive.google.com/uc?export=view&id=1-MNO345PQR678STU901VWX", alt: "Inauguration Ceremony - Closing Remarks" },
-      { src: "https://drive.google.com/uc?export=view&id=1-ABC123DEF456GHI789JKL", alt: "Inauguration Ceremony - Chief Guest Address" },
-      { src: "https://drive.google.com/uc?export=view&id=1-DEF456GHI789JKL012MNO", alt: "Inauguration Ceremony - Certificate Distribution" },
-      { src: "https://drive.google.com/uc?export=view&id=1-GHI789JKL012MNO345PQR", alt: "Inauguration Ceremony - Group Photo" },
-      { src: "https://drive.google.com/uc?export=view&id=1-JKL012MNO345PQR678STU", alt: "Inauguration Ceremony - Student Interaction" },
-      { src: "https://drive.google.com/uc?export=view&id=1-MNO345PQR678STU901VWX", alt: "Inauguration Ceremony - Closing Remarks" },
+      { src: a, alt: "Inauguration Ceremony - Chief Guest Address" },
+      { src: mainSliderImg2, alt: "Inauguration Ceremony - Certificate Distribution" },
+      { src: mainSliderImg3, alt: "Inauguration Ceremony - Group Photo" },
+      { src: mainSliderImg4, alt: "Inauguration Ceremony - Student Interaction" },
+      { src: mainSliderImg5, alt: "Inauguration Ceremony - Closing Remarks" },
+      { src: hodImg, alt: "HOD Address at Inauguration" },
+      { src: vcImg, alt: "Vice Chancellor's Speech" },
+      { src: kanojiaImg, alt: "Faculty Member Presentation" },
+      { src: universityBg, alt: "University Campus View" },
     ]
   },
   {
     id: 2,
     title: "National Seminar Day 1",
     images: [
-      { src: "https://drive.google.com/uc?export=view&id=1-PQR678STU901VWX234YZA", alt: "Day 1 - Opening Session" },
-      { src: "https://drive.google.com/uc?export=view&id=1-STU901VWX234YZA567BCD", alt: "Day 1 - Keynote Speaker" },
-      { src: "https://drive.google.com/uc?export=view&id=1-VWX234YZA567BCD890EFG", alt: "Day 1 - Technical Session" },
-      { src: "https://drive.google.com/uc?export=view&id=1-YZA567BCD890EFG123HIJ", alt: "Day 1 - Panel Discussion" },
-      { src: "https://drive.google.com/uc?export=view&id=1-BCD890EFG123HIJ456KLM", alt: "Day 1 - Networking Break" },
+      { src: a, alt: "Day 1 - Opening Session" },
+      { src: b, alt: "Day 1 - Keynote Speaker" },
+      { src: c, alt: "Day 1 - Technical Session" },
+      { src: d, alt: "Day 1 - Panel Discussion" },
+      { src: e, alt: "Day 1 - Networking Break" },
+      { src: f, alt: "Day 1 - Student Presentations" },
+      { src: g, alt: "Day 1 - Workshop Session" },
+      { src: h, alt: "Day 1 - Interactive Session" },
+      { src: i, alt: "Day 1 - Interactive Session" },
+      { src: j, alt: "Day 1 - Interactive Session" },
+      { src: k, alt: "Day 1 - Interactive Session" },
     ]
   },
   {
     id: 3,
     title: "National Seminar Day 2",
     images: [
-      { src: "https://drive.google.com/uc?export=view&id=1-EFG123HIJ456KLM789NOP", alt: "Day 2 - Workshop Session" },
-      { src: "https://drive.google.com/uc?export=view&id=1-HIJ456KLM789NOP012QRS", alt: "Day 2 - Hands-on Training" },
-      { src: "https://drive.google.com/uc?export=view&id=1-KLM789NOP012QRS345TUV", alt: "Day 2 - Student Presentations" },
-      { src: "https://drive.google.com/uc?export=view&id=1-NOP012QRS345TUV678WXY", alt: "Day 2 - Award Ceremony" },
-      { src: "https://drive.google.com/uc?export=view&id=1-QRS345TUV678WXY901ZAB", alt: "Day 2 - Closing Ceremony" },
+      { src: day2a, alt: "Day 2 - Workshop Session" },
+      { src: day2b, alt: "Day 2 - Hands-on Training" },
+      { src: day2c, alt: "Day 2 - Student Presentations" },
+      { src: day2d, alt: "Day 2 - Award Ceremony" },
+      { src: day2e, alt: "Day 2 - Closing Ceremony" },
+      { src: day2f, alt: "Day 2 - Workshop Session" },
+      { src: day2g, alt: "Day 2 - Hands-on Training" },
+      { src: day2h, alt: "Day 2 - Student Presentations" },
+      { src: day2i, alt: "Day 2 - Award Ceremony" },
+      { src: day2j, alt: "Day 2 - Closing Ceremony" },
+      { src: day2k, alt: "Day 2 - Workshop Session" },
+      { src: day2l, alt: "Day 2 - Hands-on Training" },
     ]
   }
 ];

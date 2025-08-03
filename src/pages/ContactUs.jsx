@@ -5,10 +5,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
 // Import profile images - you'll need to add these images to your assets folder
-import profile1 from '../assets/kanojia.jpg'; // student co-ordinator
-import profile2 from '../assets/profile2.jpg'; // president
-import profile3 from '../assets/profile3.jpg'; // vp-1
-import profile4 from '../assets/StudentCouncil_images/ManasMani.jpg'; // vp-2
+import StudentCoordinatorImg from '../assets/kanojia.jpg'; // student co-ordinator
+import presidentImg from '../assets/StudentCouncil_images/AdityaAshish.jpg'; // president
+import VP_1_Img from '../assets/StudentCouncil_images/AyeshaGupta.jpg'; // vp-1
+import VP_2_Img from '../assets/StudentCouncil_images/ManasMani.jpg'; // vp-2
 
 // Contact cards data with profile images
 const contactMembers = [
@@ -19,31 +19,31 @@ const contactMembers = [
     email: 'dr.kanojiasindhu@cuj.ac.in',
     phone: '+91  9415800952',
     
-    image: profile1,
+    image: StudentCoordinatorImg,
   },
   {
-    id: 2,
+    id: 2, //president
     name: 'Aditya Ashish',
     role: 'President, CSI CUJ',
-    email: 'rahul.singh@csicuj.org',
+    email: 'adityaflowers17@gmail.com',
     phone: '+91 90123 45678',
-    image: profile2,
+    image: presidentImg,
   },
   {
-    id: 3,
+    id: 3, //vp-1
     name: 'Ayesha Gupta',
     role: 'Vice President, CSI CUJ',
-    email: 'anjali.gupta@csicuj.org',
+    email: 'ayesha.22190503015@cuj.ac.in',
     phone: '+91 0000000000',
-    image: profile3,
+    image: VP_1_Img,
   },
   {
-    id: 4,
+    id: 4, //vp-2
     name: 'Manas Mani',
     role: 'Vice President, CSI CUJ',
     email: 'manas.22190503029@cuj.ac.in',
     phone: '+91 0000000000',
-    image: profile4,
+    image: VP_2_Img,
   },
 ];
 

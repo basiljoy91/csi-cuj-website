@@ -11,11 +11,12 @@ import universityBg from '../assets/university_bg.jpg';
 import AdityaAshish from "../assets/StudentCouncil_images/AdityaAshish.jpg";
 import AyeshaGupta from "../assets/StudentCouncil_images/AyeshaGupta.jpg";
 import ManasMani from "../assets/StudentCouncil_images/ManasMani.jpg";
-// import SachinYadav from "../assets/StudentCouncil_images/SachinYadav.jpg";
+import SachinYadav from "../assets/StudentCouncil_images/SachinYadav.jpg";
 import ManshiKumari from "../assets/StudentCouncil_images/ManshiKumari.jpg";
 import OmVishesh from "../assets/StudentCouncil_images/OmVishesh.jpg";
+import AnshumanSamanta from "../assets/StudentCouncil_images/AnshumanSamanta.jpg";
  import RituKumari from "../assets/StudentCouncil_images/RituKumari.jpg";
-// import AkashKumar form "../assets/StudentCouncil_images/AkashKumar"
+import AkashKumar from "../assets/StudentCouncil_images/AkashKumar.jpg"
 import VisheshSingh from "../assets/StudentCouncil_images/VisheshSingh.jpg";
 import MansiVats from "../assets/StudentCouncil_images/MansiVats.jpg";
 import AdityaKumar from "../assets/StudentCouncil_images/AdityaKumar.jpg";
@@ -38,12 +39,12 @@ const councilData = {
     { name: "ADITYA ASHISH", position: "President", image: AdityaAshish, email: "adityaflowers17@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-ashish-14a0712b9/" },
     { name: "AYESHA GUPTA", position: "Vice President", image: AyeshaGupta, email: "ayesha.22190503015@cuj.ac.in", linkedin: "http://www.linkedin.com/in/ayesha-gupta-74142a28a" },
     { name: "MANAS MANI", position: "Vice President", image: ManasMani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9/" },
-    { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "https://www.linkedin.com/in/sachin-kumar-yadav-196505291/" },
+    { name: "SACHIN KUMAR YADAV", position: "Secretary", image: SachinYadav, email: "sachprabhu1234@gmail.com", linkedin: "https://www.linkedin.com/in/sachin-kumar-yadav-196505291/" },
     { name: "MANSHI KUMARI", position: "Program Director", image: ManshiKumari, email: "mansi.22190503031@cuj.ac.in", linkedin: "https://www.linkedin.com/in/mansi-kumari-984537312" },
     { name: "OM VISHESH", position: "Program Director", image: OmVishesh, email: "omvishesh123@gmail.com", linkedin: "https://www.linkedin.com/in/omvishesh/" },
-    { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: "/images/default.jpg", email: "anshuman@example.com", linkedin: "https://www.linkedin.com/in/anshuman-samanta-4199361aa/" },
+    { name: "ANSHUMAN SAMANTA", position: "Treasurer", image: AnshumanSamanta, email: "itisanshu@gmail.com", linkedin: "https://www.linkedin.com/in/anshuman-samanta-4199361aa/" },
     { name: "RITU KUMARI", position: "Treasurer", image: RituKumari, email: "ritukumari2409@gmail.com", linkedin: "https://www.linkedin.com/in/ritu-kumari7585/" },
-    { name: "AKASH KUMAR", position: "Technical Secretary", image: "/images/default.jpg", email: "akash@example.com", linkedin: "#" },
+    { name: "AKASH KUMAR", position: "Technical Secretary", image: AkashKumar, email: "kumaripuja8313@gmail.com", linkedin: "https://www.linkedin.com/in/akash-kumar-018a41272/" },
     { name: "VISHESH SINGH", position: "Technical Secretary", image: VisheshSingh, email: "vishusingh57682@gmail.com", linkedin: "https://www.linkedin.com/in/vishesh-singh-3bb371249/" },
     { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/in/manshi-vatsa-b1771b2b6/" },
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },

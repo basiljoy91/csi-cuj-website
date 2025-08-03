@@ -2,46 +2,46 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 // Import your main slider images
-import mainSliderImg1 from '../assets/main_slider_img1.jpg';
-import mainSliderImg2 from '../assets/main_slider_img2.jpg';
-import mainSliderImg3 from '../assets/main_slider_img3.jpg';
-import mainSliderImg4 from '../assets/main_slider_img4.jpg';
-import mainSliderImg5 from '../assets/main_slider_img5.jpg';
+import csecuj from '../assets/Imageslider/Homepage/csecuj.jpg';
+import mainSliderImg2 from '../assets/Imageslider/Homepage/13.jpg';
+import mainSliderImg3 from '../assets/Imageslider/Homepage/1.jpg';
+import mainSliderImg4 from '../assets/Imageslider/Homepage/poster.jpg';
+import mainSliderImg5 from '../assets/Imageslider/Homepage/h.jpg';
 
 // Define the structure for each slide with captions
 const slides = [
   {
-    main: mainSliderImg1,
+    main: csecuj,
     title: "Innovate. Collaborate. Lead.",
     description: "Join CSI and unlock your potential in the world of technology. Engaging workshops, expert talks, and collaborative projects await. Be part of a community that fosters growth and innovation.",
-    buttonText: "Join Membership",
-    buttonLink: "/membership"
+    buttonText: "Members",
+    buttonLink: "/membership/:year"
   },
   {
     main: mainSliderImg2,
     title: "Transforming Ideas into Reality",
     description: "Our community thrives on creativity and practical application. Explore cutting-edge technologies and contribute to impactful initiatives that shape the future.",
     buttonText: "View Events",
-    buttonLink: "/events"
+    buttonLink: "/events/:year"
   },
   {
     main: mainSliderImg3,
     title: "Empowering Future Tech Leaders",
     description: "CSI provides a platform for students to hone their skills, network with professionals, and gain real-world experience. Your journey to excellence starts here.",
     buttonText: "Meet Our Council",
-    buttonLink: "/student-council"
+    buttonLink: "/student-council/:year"
   },
   {
     main: mainSliderImg4,
     title: "A Hub for Digital Exploration",
-    description: "From coding challenges to cybersecurity workshops, we cover diverse areas of computer science. Discover your passion and grow your expertise.",
-    buttonText: "Learn More",
-    buttonLink: "/about-us"
+    description: "From coding challenges to cybersecurity workshops, we cover diverse areas of computer science. Discover your passion and grow your expertise with CSI-CUJ.",
+    buttonText: "Know More",
+    buttonLink: "/contact-us"
   },
   {
     main: mainSliderImg5,
     title: "Connecting Minds, Building Futures",
-    description: "Beyond academics, we foster a strong sense of community. Participate in social events, team projects, and build lasting connections.",
+    description: "Beyond academics, we foster a strong sense of community. Participate in technical events, team projects, enrich knowledge and build lasting connections.",
     buttonText: "See Gallery",
     buttonLink: "/gallery"
   },

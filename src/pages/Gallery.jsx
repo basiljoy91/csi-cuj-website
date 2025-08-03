@@ -31,30 +31,23 @@ import day2j from '../assets/Gallery/National_Seminar/day 2/j.jpg';
 import day2k from '../assets/Gallery/National_Seminar/day 2/k.jpg';
 import day2l from '../assets/Gallery/National_Seminar/day 2/l.jpg';
 
+// Inagration
+import inag1 from '../assets/Gallery/Inagruation/inag1.jpg';
+import inag3 from '../assets/Gallery/Inagruation/inag3.jpg';
+import inag2 from '../assets/Gallery/Inagruation/inag2.jpg';
 
-import mainSliderImg2 from '../assets/main_slider_img2.jpg';
-import mainSliderImg3 from '../assets/main_slider_img3.jpg';
-import mainSliderImg4 from '../assets/main_slider_img4.jpg';
-import mainSliderImg5 from '../assets/main_slider_img5.jpg';
-import hodImg from '../assets/hod_img.jpg';
-import vcImg from '../assets/vc_img.jpg';
-import kanojiaImg from '../assets/kanojia.jpg';
-import universityBg from '../assets/university_bg.jpg';
 
 const galleryData = [
   {
     id: 1,
     title: "CSI Inauguration",
     images: [
-      { src: a, alt: "Inauguration Ceremony - Chief Guest Address" },
-      { src: mainSliderImg2, alt: "Inauguration Ceremony - Certificate Distribution" },
-      { src: mainSliderImg3, alt: "Inauguration Ceremony - Group Photo" },
-      { src: mainSliderImg4, alt: "Inauguration Ceremony - Student Interaction" },
-      { src: mainSliderImg5, alt: "Inauguration Ceremony - Closing Remarks" },
-      { src: hodImg, alt: "HOD Address at Inauguration" },
-      { src: vcImg, alt: "Vice Chancellor's Speech" },
-      { src: kanojiaImg, alt: "Faculty Member Presentation" },
-      { src: universityBg, alt: "University Campus View" },
+      { src: inag1, alt: "Inauguration Ceremony - Chief Guest Address" },
+      { src: inag3, alt: "Inauguration Ceremony" },
+      { src: inag2, alt: "Inauguration Ceremony - Group Photo" },
+      { src: inag1, alt: "Inauguration Ceremony - Chief Guest Address" },
+      { src: inag3, alt: "Inauguration Ceremony" },
+      { src: inag2, alt: "Inauguration Ceremony - Group Photo" },
     ]
   },
   {

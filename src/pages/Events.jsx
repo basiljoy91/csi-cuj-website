@@ -6,9 +6,9 @@ import EventImageSlider from '../components/EventImageSlider';
 import EventModal from '../components/EventModal';
 
 // Images
-import squareImg1_1 from '../assets/square_img1_1.jpg';
-import squareImg1_2 from '../assets/square_img1_2.jpg';
-import squareImg2_1 from '../assets/square_img2_1.jpg';
+import poster from '../assets/Imageslider/Eventpage/poster.jpg';
+import day1a from '../assets/Imageslider/Eventpage/day1a.jpg';
+import day1b from '../assets/Imageslider/Eventpage/day1b.jpg';
 import squareImg2_2 from '../assets/square_img2_2.jpg';
 import squareImg2_3 from '../assets/square_img2_3.jpg';
 import squareImg3_1 from '../assets/square_img3_1.jpg';
@@ -18,8 +18,8 @@ import squareImg4_2 from '../assets/square_img4_2.jpg';
 import squareImg4_3 from '../assets/square_img4_3.jpg';
 
 // Image arrays
-const inaugurationImages = [squareImg1_1, squareImg1_2, squareImg2_1];
-const day1Images = [squareImg2_2, squareImg2_3, squareImg3_1];
+const inaugurationImages = [poster, , ];
+const day1Images = [poster, day1a, day1b];
 const day2Images = [squareImg3_3, squareImg4_1, squareImg4_2, squareImg4_3];
 
 const Events = () => {

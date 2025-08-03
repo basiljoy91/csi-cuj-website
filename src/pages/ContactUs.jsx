@@ -34,7 +34,7 @@ const contactMembers = [
     name: 'Ayesha Gupta',
     role: 'Vice President, CSI CUJ',
     email: 'ayesha.22190503015@cuj.ac.in',
-    phone: '+91 0000000000',
+    phone: '+91 95085 46494',
     image: VP_1_Img,
   },
   {
@@ -42,7 +42,7 @@ const contactMembers = [
     name: 'Manas Mani',
     role: 'Vice President, CSI CUJ',
     email: 'manas.22190503029@cuj.ac.in',
-    phone: '+91 0000000000',
+    phone: '+918580338290',
     image: VP_2_Img,
   },
 ];

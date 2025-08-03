@@ -2,16 +2,16 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 // Import your main slider images
-import mainSliderImg1 from '../assets/main_slider_img1.jpg';
-import mainSliderImg2 from '../assets/main_slider_img2.jpg';
-import mainSliderImg3 from '../assets/main_slider_img3.jpg';
-import mainSliderImg4 from '../assets/main_slider_img4.jpg';
-import mainSliderImg5 from '../assets/main_slider_img5.jpg';
+import csecuj from '../assets/Imageslider/Homepage/csecuj.jpg';
+import mainSliderImg2 from '../assets/Imageslider/Homepage/13.jpg';
+import mainSliderImg3 from '../assets/Imageslider/Homepage/1.jpg';
+import mainSliderImg4 from '../assets/Imageslider/Homepage/poster.jpg';
+import mainSliderImg5 from '../assets/Imageslider/Homepage/h.jpg';
 
 // Define the structure for each slide with captions
 const slides = [
   {
-    main: mainSliderImg1,
+    main: csecuj,
     title: "Innovate. Collaborate. Lead.",
     description: "Join CSI and unlock your potential in the world of technology. Engaging workshops, expert talks, and collaborative projects await. Be part of a community that fosters growth and innovation.",
     buttonText: "Members",

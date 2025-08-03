@@ -33,7 +33,8 @@ import day2l from '../assets/Gallery/National_Seminar/day 2/l.jpg';
 
 // Inagration
 import inag1 from '../assets/Gallery/Inagruation/inag1.jpg';
-import mainSliderImg3 from '../assets/main_slider_img3.jpg';
+import inag3 from '../assets/Gallery/Inagruation/inag3.jpg';
+import inag2 from '../assets/Gallery/Inagruation/inag2.jpg';
 
 
 const galleryData = [
@@ -42,8 +43,11 @@ const galleryData = [
     title: "CSI Inauguration",
     images: [
       { src: inag1, alt: "Inauguration Ceremony - Chief Guest Address" },
-      { src: inag1, alt: "Inauguration Ceremony - Certificate Distribution" },
-      { src: mainSliderImg3, alt: "Inauguration Ceremony - Group Photo" },
+      { src: inag3, alt: "Inauguration Ceremony" },
+      { src: inag2, alt: "Inauguration Ceremony - Group Photo" },
+      { src: inag1, alt: "Inauguration Ceremony - Chief Guest Address" },
+      { src: inag3, alt: "Inauguration Ceremony" },
+      { src: inag2, alt: "Inauguration Ceremony - Group Photo" },
     ]
   },
   {

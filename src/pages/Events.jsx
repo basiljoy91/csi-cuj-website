@@ -43,7 +43,7 @@ const Events = () => {
       <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-300 mx-4 my-8 overflow-hidden transform transition-transform duration-300 hover:scale-[1.01] hover:brightness-95">
         <section className="px-6 pt-16 pb-6 bg-white text-center">
           <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
-            CSI Student Chapter Inauguration
+            <b>CSI Student Chapter Inauguration</b>
           </h4>
           <p className="text-gray-600 text-lg mb-8">
             Central University of Jharkhand | <b>29th December, 2024</b>
@@ -78,8 +78,8 @@ const Events = () => {
 <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-300 mx-4 my-8 overflow-hidden transform transition-transform duration-300 hover:scale-[1.01] hover:brightness-95">
   <section className="px-6 pt-16 pb-6 bg-white text-center">
     <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
-      Two-Day National Seminar on <br className="md:hidden" />
-      <span className="text-blue-600">Cybersecurity in the Age of AI and ML</span>
+      <b>Two-Day National Seminar on</b> <br className="md:hidden" />
+      <span className="text-gray-600"><b>Cybersecurity in the Age of AI and ML</b></span>
     </h4>
     <p className="text-gray-600 text-lg mb-8">
       Organized by CSI Student Chapter – CUJ | <b>27th & 28th February 2025</b>
@@ -93,7 +93,7 @@ const Events = () => {
     </div>
     <div className="md:w-1/2 w-full">
       <h2 className="text-2xl md:text-3xl font-semibold text-black-800 mb-2">
-        Day 1 – Seminar Inauguration & Paper Presentation
+        Day 1: Seminar Inauguration & Paper Presentation
       </h2>
       <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
         27th February, 2025
@@ -117,7 +117,7 @@ const Events = () => {
     </div>
     <div className="md:w-1/2 w-full">
       <h2 className="text-2xl md:text-3xl font-semibold text-black-800 mb-2">
-        Day 2 – Expert Talks & Valedictory Session
+        Day 2: Expert Talks & Valedictory Session
       </h2>
       <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
         28th February, 2025

@@ -74,7 +74,7 @@ const ContactUsPage = () => {
 
           {/* Contact Cards Section */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bold text-center text-csi-blue mb-10">Our Core Team</h2>
+            <h2 className="text-4xl font-bold text-center text-csi-blue mb-10">Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {contactMembers.map((member) => (
                 <div

@@ -51,7 +51,7 @@ const Footer = () => {
               href="mailto:csi@cuj.ac.in"
               className="hover:underline transition-colors duration-200"
             >
-              csi@cuj.ac.in
+              csicuj@gmail.com
             </a>
           </p>
           <br />

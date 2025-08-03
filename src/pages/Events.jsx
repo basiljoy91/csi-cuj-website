@@ -38,100 +38,102 @@ const Events = () => {
       <Header />
       <Navbar />
 
-        <section className="px-6 pt-16 pb-6 bg-white text-center">
-    <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
-      CSI Student Chapter Inauguration
-    </h4>
-    <p className="text-gray-600 text-lg mb-8">
-      Central University of Jharkhand – <b>29th December, 2024</b>
-    </p>
-  </section>
-
 
       {/* CSI Student Chapter Inauguration */}
-      <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
-        <div className="md:w-1/2 w-full">
-          <EventImageSlider images={inaugurationImages} />
-        </div>
-        <div className="md:w-1/2 w-full">
-          <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2>
-          <p className="text-lg text-justify">
-            The inauguration of CSI Student Chapter, CUJ on <b>29th December, 2024</b>, marked the beginning of a new journey filled with learning, collaboration, and innovation in the field of Computer Science.
+      <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-300 mx-4 my-8 overflow-hidden transform transition-transform duration-300 hover:scale-[1.01] hover:brightness-95">
+        <section className="px-6 pt-16 pb-6 bg-white text-center">
+          <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
+            CSI Student Chapter Inauguration
+          </h4>
+          <p className="text-gray-600 text-lg mb-8">
+            Central University of Jharkhand | <b>29th December, 2024</b>
           </p>
-          <button
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            onClick={() => handleOpen('inauguration')}
-          >
-            Learn More
-          </button>
-        </div>
-      </section>
+        </section>
+        <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12">
+          <div className="md:w-1/2 w-full">
+            <EventImageSlider images={inaugurationImages} />
+          </div>
+          <div className="md:w-1/2 w-full">
+            {/* <h2 className="text-3xl font-bold mb-4">CSI Student Chapter Inauguration</h2> */}
+            <p className="text-lg text-justify">
+              The inauguration of CSI Student Chapter, CUJ on <b>29th December, 2024</b>, marked the beginning of a new journey filled with learning, collaboration, and innovation in the field of Computer Science.
+            </p>
+            <button
+              className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              onClick={() => handleOpen('inauguration')}>
+                Learn More
+            </button>
+          </div>
+        </section>
+      </div>
 
-{/* 🔻 Divider Between Inauguration and Seminar */}
+{/* 🔻 Divider Between Inauguration and Seminar
 <div className="w-full px-6 py-4 bg-gradient-to-r from-indigo-100 to-blue-100 border-l-4 border-indigo-500 shadow-sm my-6 rounded-md">
   <h3 className="text-xl md:text-2xl font-semibold text-indigo-800 text-center">
     
   </h3>
-</div>
+</div> */}
 
 {/* Start of Seminar Section */}
-<section className="px-6 pt-16 pb-6 bg-white text-center">
-  <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
-    Two-Day National Seminar on <br className="md:hidden" />
-    <span className="text-blue-600">Cybersecurity in the Age of AI and ML</span>
-  </h4>
-  <p className="text-gray-600 text-lg mb-8">
-    Organized by CSI Student Chapter – CUJ | <b>27th & 28th February 2025</b>
-  </p>
-</section>
-
-{/* Day 1 of Seminar */}
-<section className="flex flex-col md:flex-row-reverse items-center gap-6 px-6 py-12 bg-gray-100">
-  <div className="md:w-1/2 w-full">
-    <EventImageSlider images={day1Images} />
-  </div>
-  <div className="md:w-1/2 w-full">
-    <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-2">
-      🔹 Day 1 – Seminar Inauguration & Paper Presentation
-    </h2>
-    <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
-      27th February, 2025
-    </h3>
-    <p className="text-lg text-justify">
-      The first day of the Two-Day National Seminar on Cybersecurity in the Age of AI and ML began with the inauguration of the CSI Student Chapter at Central University of Jharkhand. Distinguished guests and experts in computer science set the tone with thought-provoking insights on the convergence of AI, machine learning, and security challenges. The keynote address emphasized the importance of resilient systems in an era of digital threats. Students and researchers presented papers—both online and offline—exploring innovations in secure machine learning, data privacy, and threat detection, highlighting the need for robust cybersecurity frameworks in today’s AI-driven world.
+<div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-300 mx-4 my-8 overflow-hidden transform transition-transform duration-300 hover:scale-[1.01] hover:brightness-95">
+  <section className="px-6 pt-16 pb-6 bg-white text-center">
+    <h4 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800">
+      Two-Day National Seminar on <br className="md:hidden" />
+      <span className="text-blue-600">Cybersecurity in the Age of AI and ML</span>
+    </h4>
+    <p className="text-gray-600 text-lg mb-8">
+      Organized by CSI Student Chapter – CUJ | <b>27th & 28th February 2025</b>
     </p>
-    <button
-      className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-      onClick={() => handleOpen('day1')}
-    >
-      Learn More
-    </button>
-  </div>
-</section>
+  </section>
 
-{/* Day 2 of Seminar */}
-<section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12 bg-white">
-  <div className="md:w-1/2 w-full">
-    <EventImageSlider images={day2Images} />
-  </div>
-  <div className="md:w-1/2 w-full">
-    <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-2">
-      🔹 Day 2 – Expert Talks & Valedictory Session
-    </h2>
-    <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
-      28th February, 2025
-    </h3>
-    <p className="text-lg text-justify">
-      The second day focused on domain-specific expert talks that delved into practical aspects of cybersecurity in intelligent systems. Sessions explored advanced topics such as blockchain for secure data integrity, AI-powered threat mitigation, and ethical considerations in autonomous decision-making. The technical discussions bridged the gap between academic research and real-world application, enriching the participants' understanding of digital defense strategies. The event concluded with a valedictory session that acknowledged contributions, inspired future research, and reinforced the mission to build secure and intelligent digital infrastructures.
-    </p>
-    <button
-      className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-      onClick={() => handleOpen('day2')}
-    >
-      Learn More
-    </button>
-  </div>
-</section>
+  {/* Day 1 of Seminar */}
+  <section className="flex flex-col md:flex-row-reverse items-center gap-6 px-6 py-12 bg-gray-100">
+    <div className="md:w-1/2 w-full">
+      <EventImageSlider images={day1Images} />
+    </div>
+    <div className="md:w-1/2 w-full">
+      <h2 className="text-2xl md:text-3xl font-semibold text-black-800 mb-2">
+        Day 1 – Seminar Inauguration & Paper Presentation
+      </h2>
+      <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
+        27th February, 2025
+      </h3>
+      <p className="text-lg text-justify">
+        The first day of the Two-Day National Seminar on Cybersecurity in the Age of AI and ML began with the inauguration of the CSI Student Chapter at Central University of Jharkhand. Distinguished guests and experts in computer science set the tone with thought-provoking insights on the convergence of AI, machine learning, and security challenges. The keynote address emphasized the importance of resilient systems in an era of digital threats. Students and researchers presented papers—both online and offline—exploring innovations in secure machine learning, data privacy, and threat detection, highlighting the need for robust cybersecurity frameworks in today’s AI-driven world.
+      </p>
+      <button
+        className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+        onClick={() => handleOpen('day1')}
+      >
+        Learn More
+      </button>
+    </div>
+  </section>
+
+  {/* Day 2 of Seminar */}
+  <section className="flex flex-col md:flex-row items-center gap-6 px-6 py-12 bg-white">
+    <div className="md:w-1/2 w-full">
+      <EventImageSlider images={day2Images} />
+    </div>
+    <div className="md:w-1/2 w-full">
+      <h2 className="text-2xl md:text-3xl font-semibold text-black-800 mb-2">
+        Day 2 – Expert Talks & Valedictory Session
+      </h2>
+      <h3 className="text-lg md:text-xl font-medium text-gray-600 mb-4">
+        28th February, 2025
+      </h3>
+      <p className="text-lg text-justify">
+        The second day focused on domain-specific expert talks that delved into practical aspects of cybersecurity in intelligent systems. Sessions explored advanced topics such as blockchain for secure data integrity, AI-powered threat mitigation, and ethical considerations in autonomous decision-making. The technical discussions bridged the gap between academic research and real-world application, enriching the participants' understanding of digital defense strategies. The event concluded with a valedictory session that acknowledged contributions, inspired future research, and reinforced the mission to build secure and intelligent digital infrastructures.
+      </p>
+      <button
+        className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+        onClick={() => handleOpen('day2')}
+      >
+        Learn More
+      </button>
+    </div>
+  </section>
+</div>
 
       <Footer />
 

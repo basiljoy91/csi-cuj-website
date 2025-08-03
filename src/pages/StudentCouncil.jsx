@@ -8,8 +8,8 @@ import universityBg from '../assets/university_bg.jpg';
 
 // importing the images of the student council
 
-// import AdityaAshish from "../assets/StudentCouncil_images/AdityaAshish.jpg";
-// import AyeshaGupta from "../assets/StudentCouncil_images/AyeshaGupta.jpg";
+import AdityaAshish from "../assets/StudentCouncil_images/AdityaAshish.jpg";
+import AyeshaGupta from "../assets/StudentCouncil_images/AyeshaGupta.jpg";
 import ManasMani from "../assets/StudentCouncil_images/ManasMani.jpg";
 // import SachinYadav from "../assets/StudentCouncil_images/SachinYadav.jpg";
 import ManshiKumari from "../assets/StudentCouncil_images/ManshiKumari.jpg";
@@ -19,11 +19,11 @@ import OmVishesh from "../assets/StudentCouncil_images/OmVishesh.jpg";
 import VisheshSingh from "../assets/StudentCouncil_images/VisheshSingh.jpg";
 import MansiVats from "../assets/StudentCouncil_images/MansiVats.jpg";
 import AdityaKumar from "../assets/StudentCouncil_images/AdityaKumar.jpg";
-// import ApurbaDas from "../assets/StudentCouncil_images/ApurbaDas.jpg";
+import ApurbaDas from "../assets/StudentCouncil_images/ApurbaDas.jpg";
 import UjitRaj from "../assets/StudentCouncil_images/UjitRaj.jpg";
 import BasilJoy from "../assets/StudentCouncil_images/BasilJoy.jpg";
 import HemantPrakash from "../assets/StudentCouncil_images/HemantPrakash.jpg"; 
-// import RishavMishra form "../assets/StudentCouncil_images/RishavMishra.jpg";
+import RishavMishra from "../assets/StudentCouncil_images/RishavMishra.jpg";
 
 
 const councilData = {
@@ -35,8 +35,8 @@ const councilData = {
     linkedin: "https://www.linkedin.com/in/dr-kanojia-sindhu-4a750818/"
   },
   members: [
-    { name: "ADITYA ASHISH", position: "President", image: "/images/default.jpg", email: "aditya@example.com", linkedin: "#" },
-    { name: "AYESHA GUPTA", position: "Vice President", image: "/images/default.jpg", email: "ayesha@example.com", linkedin: "#" },
+    { name: "ADITYA ASHISH", position: "President", image: AdityaAshish, email: "adityaflowers17@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-ashish-14a0712b9/" },
+    { name: "AYESHA GUPTA", position: "Vice President", image: AyeshaGupta, email: "ayesha.22190503015@cuj.ac.in", linkedin: "http://www.linkedin.com/in/ayesha-gupta-74142a28a" },
     { name: "MANAS MANI", position: "Vice President", image: ManasMani, email: "manas.22190503029@cuj.ac.in", linkedin: "https://www.linkedin.com/in/manas-mani-9a259b1a9/" },
     { name: "SACHIN KUMAR YADAV", position: "Secretary", image: "/images/default.jpg", email: "sachin@example.com", linkedin: "https://www.linkedin.com/in/sachin-kumar-yadav-196505291/" },
     { name: "MANSHI KUMARI", position: "Program Director", image: ManshiKumari, email: "mansi.22190503031@cuj.ac.in", linkedin: "https://www.linkedin.com/in/mansi-kumari-984537312" },
@@ -47,11 +47,11 @@ const councilData = {
     { name: "VISHESH SINGH", position: "Technical Secretary", image: VisheshSingh, email: "vishusingh57682@gmail.com", linkedin: "https://www.linkedin.com/in/vishesh-singh-3bb371249/" },
     { name: "MANSHI VATSA", position: "Technical Secretary", image: MansiVats, email: "manshivatsa7676@gmail.com", linkedin: "https://www.linkedin.com/in/manshi-vatsa-b1771b2b6/" },
     { name: "ADITYA KUMAR", position: "Technical Secretary", image: AdityaKumar, email: "adityaku98522@gmail.com", linkedin: "https://www.linkedin.com/in/aditya-kumar-376097282" },
-    { name: "APURBA DAS", position: "Co-Technical Secretary", image: "/images/apurba.jpg", email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },
+    { name: "APURBA DAS", position: "Co-Technical Secretary", image: ApurbaDas, email: "apurba131223@gmail.com", linkedin: "https://www.linkedin.com/in/apurbasbjk30/" },
     { name: "UJIT RAJ RATHORE", position: "Co-Technical Secretary", image: UjitRaj, email: "ujit.23190503060@cuj.ac.in", linkedin: " https://www.linkedin.com/in/ujit-raj-rathore-ab88a1241/" },
     { name: "BASIL JOY", position: "Co-Technical Secretary", image: BasilJoy, email: "basiljoygreen@gmail.com", linkedin: "http://linkedin.com/in/basil-joy-6b07511a7" },
     { name: "HEMANT PRAKASH", position: "Co-Technical Secretary", image: HemantPrakash, email: "hemant.23190503030@cuj.ac.in", linkedin: "https://www.linkedin.com/in/hemant-prakash-74381929b/" },
-    { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image: "/images/default.jpg", email: "rishavmishra0408@gmail.com", linkedin: "https://www.linkedin.com/in/rishav-mishra-516882276/" }
+    { name: "RISHAV MISHRA", position: "Co-Technical Secretary", image:RishavMishra, email: "rishavmishra0408@gmail.com", linkedin: "https://www.linkedin.com/in/rishav-mishra-516882276/" }
   ],
 };
 

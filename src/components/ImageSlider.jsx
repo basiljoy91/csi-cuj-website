@@ -14,8 +14,8 @@ const slides = [
     main: mainSliderImg1,
     title: "Innovate. Collaborate. Lead.",
     description: "Join CSI and unlock your potential in the world of technology. Engaging workshops, expert talks, and collaborative projects await. Be part of a community that fosters growth and innovation.",
-    buttonText: "Join Membership",
-    buttonLink: "/membership"
+    buttonText: "Members",
+    buttonLink: "/membership/:year"
   },
   {
     main: mainSliderImg2,

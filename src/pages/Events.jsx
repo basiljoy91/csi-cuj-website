@@ -74,7 +74,7 @@ The Department of Computer Science and Engineering , Central University of Jhark
 
   ➤ Prof. (Dr.) A. K. Nayak is a senior academician, administrator, and IT industry leader with more than 38 years of experience in teaching, research, training, and administration within <b>Computer Science, Information Technology, and Management</b>.<br />
   <br /><b>Research Paper Presentations and Recognition: </b>
-  <br />To promote academic engagement, the seminar included <b>research paper presentations</b>, where <b>36 papers</b> were presented in <b>offline and online modes</b> by researchers, scholars, and academicians from universities across India. These papers covered various themes under cybersecurity, artificial intelligence, and machine learning.<br />
+  <br />To promote academic engagement, the seminar included <b>research paper presentations</b>, where <b>35+ papers</b> were presented in <b>offline and online modes</b> by researchers, scholars, and academicians from universities across India. These papers covered various themes under cybersecurity, artificial intelligence, and machine learning.<br />
   To evaluate and recognize outstanding contributions, the organizing team collaborated with <b>renowned professors from across India</b> as session chairs and reviewers. Selected participants were honored with the <b>“Best Presentation Award Certificate”</b>, while all presenters received <b>Certificates of Participation</b>.<br />            
   <br /><b>Session Chairs & Experts: </b><br />
 </p>
@@ -90,7 +90,7 @@ The Department of Computer Science and Engineering , Central University of Jhark
 </ul>
 <p className="text-lg text-justify">
   <br />
-  The session concluded with a <b>vote of thanks</b> by Dr. Kanojia Sindhuben Babubai and the <b>National Anthem</b>.
+  The session concluded with a <b>vote of thanks</b> by Dr. Kanojia Sindhuben Babubal and the <b>National Anthem</b>.
 </p>
         </div>
       </section>

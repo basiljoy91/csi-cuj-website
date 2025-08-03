@@ -36,7 +36,7 @@ const slides = [
     title: "A Hub for Digital Exploration",
     description: "From coding challenges to cybersecurity workshops, we cover diverse areas of computer science. Discover your passion and grow your expertise with CSI-CUJ.",
     buttonText: "Learn More",
-    buttonLink: "/"
+    buttonLink: "/contact-us"
   },
   {
     main: mainSliderImg5,

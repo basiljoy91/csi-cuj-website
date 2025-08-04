@@ -27,6 +27,7 @@ import HemantPrakash from "../assets/StudentCouncil_images/HemantPrakash.jpg";
 import RishavMishra from "../assets/StudentCouncil_images/RishavMishra.jpg";
 
 
+
 const councilData = {
   coordinator: {
     name: "Dr. Kanojia Sindhuben Babulal",

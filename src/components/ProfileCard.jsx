@@ -4,7 +4,7 @@ import React from 'react';
 const ProfileCard = ({ image, name, title, description }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <img src={image} alt={name} className="w-full h-56 object-cover object-center" />
+      <img src={image} alt={name} className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover object-center mx-auto" />
       <div className="p-6 text-center text-dark-blue">
         <h3 className="text-2xl font-bold text-csi-blue mb-2">{name}</h3>
         <p className="text-md text-gray-600 mb-4">{title}</p>

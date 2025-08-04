@@ -27,7 +27,7 @@ const Members = () => {
           {/* Title and Introduction */}
           <section className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold text-csi-blue mb-4 leading-tight">
-              Our Esteemed Members
+              Our Esteemed Members (2024-2025)
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               Meet the vibrant community driving innovation at CSI CUJ. Below is a list of our active members.

@@ -80,13 +80,7 @@ const HomePage = () => {
               <p className="text-lg text-gray-300">Meet the esteemed individuals leading our initiatives and shaping the future of our students.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <ProfileCard
-                image={vcImg}
-                name=" Prof.(Dr.) Kshiti Bhusan Das "
-                title="Vice Chancellor, CUJ"
-                description="Professor Kshiti Bhusan Das, M.Com, Ph.D and D.Litt. (Commerce) from Utkal University, Bhubaneswar. He is a National Fellow of Indian Council of Social Science Research (ICSSR), New Delhi. He is an esteemed member of ICSSR's Collegium of Eminent Social Scientists and a member of the Advisory Committee of ERC-ICSSR."
-              />
-
+            
               <ProfileCard
                 image={hodImg}
                 name="Prof.(Dr.) Subash Chandra Yadav"
@@ -100,6 +94,19 @@ const HomePage = () => {
                 title="Asst. Prof. &  Student Branch Coordinator, CSI-CUJ"
                 description="Dr. Kanojia Sindhuben Babulal is an Asst. Professor in Department of Computer Science and Engineering at CUJ, Ranchi. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, ML."
               />
+                <ProfileCard
+                image={vcImg}
+                name="  "
+                title=""
+                description=""
+              />
+                <ProfileCard
+                image={vcImg}
+                name="  "
+                title=""
+                description=""
+              />
+
             </div>
           </section>
           <Footer/>

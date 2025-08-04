@@ -1,34 +1,34 @@
 // src/components/Header.jsx
 import React from 'react';
-import universityLogo from '../assets/university_logo.png'; // Make sure paths are correct
-import csiLogo from '../assets/csi_logo.png'; // Make sure paths are correct
+import universityLogo from '../assets/university_logo.png';
+import csiLogo from '../assets/csi_logo.png';
 
 const Header = () => {
   return (
-    <header className=" text-white py-4 shadow">
-      {/* White background container for logos and text */}
-      <div className="bg-white rounded-lg shadow-md p-4 flex md:flex-row items-center\\ justify-center space-y-4 md:space-y-0 md:space-x-8 mx-auto">
-        {/* Left section: University Logo + Text */}
-        <div className="flex items-center space-x-2 sm:space-x-4"> {/* Reduced space-x for mobile, increased for sm+ */}
-          <img
-            src={universityLogo}
-            alt="University Logo"
-            className="h-32 w-auto object-contain flex-shrink-0 " // Smaller height for mobile, prevent shrinking
-          />
-          <h1 className="text-csi-blue text-xs sm:text-lg md:text-xl lg:text-4xl font-extrabold whitespace-nowrap text-center leading-tight">
-            Computer Society Of India
-            <br/> {/* Line break on mobile only */}
-            Student Chapter
-            <br/> {/* Line break on mobile only */}
-            Central University of Jharkhand
-          </h1>
-        </div>
+    <header className="text-white py-4 shadow">
+      <div className="bg-white rounded-lg shadow-md px-4 py-2 flex flex-row items-center justify-between space-x-2 sm:space-x-4 mx-auto">
+        
+        {/* Left: University Logo */}
+        <img
+          src={universityLogo}
+          alt="University Logo"
+          className="h-10 sm:h-12 lg:h-32 w-auto object-contain flex-shrink-0"
+        />
 
-        {/* CSI Logo - right side */}
+        {/* Center: Text */}
+        <h1 className="text-csi-blue text-[10px] sm:text-sm md:text-base lg:text-4xl font-extrabold text-center leading-tight flex-1 px-2">
+          Computer Society Of India,
+          <br />
+          Student Chapter,
+          <br />
+          Central University of Jharkhand, Ranchi
+        </h1>
+
+        {/* Right: CSI Logo */}
         <img
           src={csiLogo}
           alt="CSI Logo"
-          className="h-32 w-auto object-contain flex-shrink-0 " // Smaller height for mobile, prevent shrinking
+          className="h-10 sm:h-12 lg:h-32 w-auto object-contain flex-shrink-0"
         />
       </div>
     </header>

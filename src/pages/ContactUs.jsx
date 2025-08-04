@@ -15,7 +15,7 @@ const contactMembers = [
   {
     id: 1,
     name: 'Dr. Kanojia Sindhuben Babulal',
-    role: 'Student Co-ordinator, CSI-CUJ',
+    role: 'Student Branch Co-ordinator, CSI-CUJ',
     email: 'dr.kanojiasindhu@cuj.ac.in',
     phone: '+91  9415800952',
     
@@ -24,7 +24,7 @@ const contactMembers = [
   {
     id: 2, //president
     name: 'Aditya Ashish',
-    role: 'President, CSI CUJ',
+    role: 'President, CSI-CUJ',
     email: 'adityaflowers17@gmail.com',
     phone: '+91 90123 45678',
     image: presidentImg,
@@ -32,7 +32,7 @@ const contactMembers = [
   {
     id: 3, //vp-1
     name: 'Ayesha Gupta',
-    role: 'Vice President, CSI CUJ',
+    role: 'Vice President, CSI-CUJ',
     email: 'ayesha.22190503015@cuj.ac.in',
     phone: '+91 95085 46494',
     image: VP_1_Img,
@@ -40,7 +40,7 @@ const contactMembers = [
   {
     id: 4, //vp-2
     name: 'Manas Mani',
-    role: 'Vice President, CSI CUJ',
+    role: 'Vice President, CSI-CUJ',
     email: 'manas.22190503029@cuj.ac.in',
     phone: '+918580338290',
     image: VP_2_Img,

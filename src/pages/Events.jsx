@@ -248,7 +248,7 @@ const Events = () => {
 
  {selectedEvent === 'day2' && (
   <>
-    <h2 className="text-2xl font-bold mb-4">🔹 Day 2: National Seminar (30th December 2024)</h2>
+    <h2 className="text-2xl font-bold mb-4">🔹 Day 2: National Seminar (28th February, 2025)</h2>
     <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
       <p>
         The second day of the inaugural event hosted by the CSI Student Chapter was dedicated to the National Seminar on <b>Recent Advances in Artificial Intelligence, Cybersecurity, and Data Science</b>, held on 30th December 2024 at the Central University of Jharkhand.

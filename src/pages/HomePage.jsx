@@ -11,6 +11,8 @@ import CUJimage from '../assets/Homepage/csecuj.jpg';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
 import kanojiaImg from '../assets/kanojia.jpg';
+import pushpendraImg from '../assets/Homepage/pushpendra.jpg';
+import prashantImg from '../assets/Homepage/prashant.jpg';
 import Footer from '../components/footer';
 import CSiLogo from '../assets/Homepage/images.png';
 
@@ -96,15 +98,15 @@ const HomePage = () => {
                 description="Dr. Kanojia Sindhuben Babulal is an Asst. Professor in Department of Computer Science and Engineering at CUJ, Ranchi. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, ML."
               />
                 <ProfileCard
-                image={vcImg}
-                name="  "
-                title=""
-                description=""
+                image={pushpendraImg}
+                name="Dr. Pushpendra Kumar"
+                title="Asst. Prof. & Nominee Member, CSI-CUJ"
+                description="Dr. Pushpendra Kumar is an Asst. Professor in  Department of Computer Science & Engineering at CUJ, Ranchi+. He obtained his Masters in Computer Applications from RGPV, Bhopal, India. He has Qualified UGC NET-JRF in Computer Science and Applications. He received his Ph.D from NIT, Bhopal (MP). His area of interest includes Data Mining, ML and Deep Learning."
               />
                 <ProfileCard
-                image={vcImg}
-                name="  "
-                title=""
+                image={prashantImg}
+                name="Dr. Prashant Prashun"
+                title="Asst. Prof. & Nominee Member, CSI-CUJ"
                 description=""
               />
 

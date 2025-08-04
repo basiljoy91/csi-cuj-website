@@ -30,7 +30,7 @@ import RishavMishra from "../assets/StudentCouncil_images/RishavMishra.jpg";
 const councilData = {
   coordinator: {
     name: "Dr. Kanojia Sindhuben Babulal",
-    position: "Asst. Prof. & Student Co-ordinator, CSI-CUJ",
+    position: "Asst. Prof. &  Student Branch Coordinator, CSI-CUJ",
     image: kanojiaImg,
     email: "dr.kanojiasindhu@cuj.ac.in",
     linkedin: "https://www.linkedin.com/in/dr-kanojia-sindhu-4a750818/"
@@ -91,7 +91,7 @@ const StudentCouncil = () => {
         {/* Student Coordinator */}
         <div className="mb-12">
           <h2 className="text-2xl font-semibold text-csi-blue mb-4 text-center">
-            Student Coordinator
+            Student Branch Coordinator
           </h2>
           <div className="max-w-sm mx-auto">
             <ProfileCard {...councilData.coordinator} />

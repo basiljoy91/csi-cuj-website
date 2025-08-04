@@ -9,18 +9,22 @@ import EventModal from '../components/EventModal';
 import poster from '../assets/Imageslider/Eventpage/poster.jpg';
 import day1a from '../assets/Imageslider/Eventpage/day1a.jpg';
 import day1b from '../assets/Imageslider/Eventpage/day1b.jpg';
-import squareImg2_2 from '../assets/square_img2_2.jpg';
-import squareImg2_3 from '../assets/square_img2_3.jpg';
-import squareImg3_1 from '../assets/square_img3_1.jpg';
-import squareImg3_3 from '../assets/square_img3_3.jpg';
-import squareImg4_1 from '../assets/square_img4_1.jpg';
-import squareImg4_2 from '../assets/square_img4_2.jpg';
-import squareImg4_3 from '../assets/square_img4_3.jpg';
+
+//inaug
+import inaug1 from '../assets/Imageslider/Eventpage/inag1.jpg';
+import inaug2 from '../assets/Imageslider/Eventpage/inag2.jpg';
+import inaug3 from '../assets/Imageslider/Eventpage/inag3.jpg';
+
+//day2
+import day2a from '../assets/Imageslider/Eventpage/d.jpg';
+import day2b from '../assets/Imageslider/Eventpage/g.jpg';
+import day2c from '../assets/Imageslider/Eventpage/p.jpg';
+import day2d from '../assets/Imageslider/Eventpage/q.jpg';
 
 // Image arrays
-const inaugurationImages = [poster, , ];
+const inaugurationImages = [inaug1, inaug2, inaug3];
 const day1Images = [poster, day1a, day1b];
-const day2Images = [squareImg3_3, squareImg4_1, squareImg4_2, squareImg4_3];
+const day2Images = [day2a, day2b, day2c, day2d];
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);

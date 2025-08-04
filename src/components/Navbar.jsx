@@ -111,15 +111,29 @@ const Navbar = () => {
                 <ul className="absolute left-0 top-full w-48 bg-white text-csi-blue rounded-md shadow-lg origin-top-left hidden group-hover:block z-50 pointer-events-auto ">
                   {item.dropdown.map((year) => (
                     <li key={year}>
-                      <Link
-                        to={`${item.dropdownPath}${year}`}
-                        onClick={() => {
-                          setIsMenuOpen(false); // Only for mobile
-                        }}
-                        className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
-                      >
-                        {year}
-                      </Link>
+                      {year === 'University Membership' ? (
+                        <a
+                          href="https://cuj.ac.in/DCSE/files/membership_csi.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => {
+                            setIsMenuOpen(false); // Only for mobile
+                          }}
+                          className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
+                        >
+                          {year}
+                        </a>
+                      ) : (
+                        <Link
+                          to={`${item.dropdownPath}${year}`}
+                          onClick={() => {
+                            setIsMenuOpen(false); // Only for mobile
+                          }}
+                          className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
+                        >
+                          {year}
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -159,16 +173,31 @@ const Navbar = () => {
                     <ul className="bg-gray-100 text-csi-blue rounded-md shadow-inner py-1 mt-2 animate-fade-in">
                       {item.dropdown.map((year) => (
                         <li key={year}>
-                          <Link
-                            to={`${item.dropdownPath}${year}`}
-                            onClick={() => {
-                              closeAllDropdowns();
-                              setIsMenuOpen(false);
-                            }}
-                            className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
-                          >
-                            {year}
-                          </Link>
+                          {year === 'University Membership' ? (
+                            <a
+                              href="https://cuj.ac.in/DCSE/files/membership_csi.pdf"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() => {
+                                closeAllDropdowns();
+                                setIsMenuOpen(false);
+                              }}
+                              className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
+                            >
+                              {year}
+                            </a>
+                          ) : (
+                            <Link
+                              to={`${item.dropdownPath}${year}`}
+                              onClick={() => {
+                                closeAllDropdowns();
+                                setIsMenuOpen(false);
+                              }}
+                              className="block px-4 py-2 hover:bg-csi-blue hover:text-white transition-colors duration-300"
+                            >
+                              {year}
+                            </Link>
+                          )}
                         </li>
                       ))}
                     </ul>

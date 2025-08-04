@@ -144,39 +144,36 @@ const Events = () => {
       {selectedEvent && (
         <EventModal onClose={handleClose}>
           {selectedEvent === 'inauguration' && (
-  <>
-    <h2 className="text-2xl font-bold mb-4">🎉 Inauguration of CSI CUJ Student Branch (29th November 2024)</h2>
-    <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
-      <p>
-        The inauguration of the CSI Student Branch at Central University of Jharkhand marked a pivotal step toward nurturing a collaborative and innovation-driven technical ecosystem within the campus.
-        The virtual ceremony featured the digital unveiling of the CSI flag by chief guest <b>Prof. A.K. Nayak</b>, symbolizing the official launch of the chapter.
-        The session began with addresses by the Head of the Department and the CSI Councillor, setting an enthusiastic tone for the journey ahead.
-      </p>
+          <>
+            <h2 className="text-2xl font-bold mb-4">Inauguration of CSI CUJ Student Branch</h2>
+            <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
+              <p>
+                The inauguration of the CSI Student Branch at Central University of Jharkhand marked a pivotal step toward nurturing a collaborative and innovation-driven technical ecosystem within the campus.
+                <b>The virtual ceremony featured the digital unveiling of the CSI flag by chief guest Prof. A.K. Nayak, symbolizing the official launch of the chapter.</b>
+                <br/><br/>The session began with address by the Head of the Department and that of the CSI Counsellor, setting an enthusiastic tone for the journey ahead.
+              </p>
 
-      <p>
-        A detailed presentation followed, outlining the mission of CSI and the vision of the newly established CUJ Chapter,
-        alongside introductions of the Student Council members who will steer the chapter’s initiatives.
-      </p>
+              <p>
+                A detailed presentation, outlining the mission of CSI and the vision of the newly established CUJ Chapter, alongside introduction of the Student Council members who will steer the chapter’s initiatives.
+              </p>
 
-      <p>
-        <b>Prof. Nayak’s</b> keynote address motivated students to embrace AI, machine learning, and emerging technologies,
-        while continuously evolving as learners and contributors to the computing domain.
-      </p>
+              <p>
+                <b>Prof. Nayak’s keynote address</b> motivated students to <b>embrace AI, ML, and emerging technologies</b>. While continuously evolving as learners and contributors to the computing domain.
+              </p>
 
-      <p>
-        The event witnessed active participation from CSE students across all years,
-        reflecting a strong commitment to future activities.
-        The inauguration set the foundation for fostering technical excellence, collaborative learning,
-        and professional growth under the banner of CSI at CUJ.
-      </p>
-    </div>
-  </>
-)}
+              <p>
+                The event witnessed active participation from CSE students across all batches, reflecting a strong commitment to future activities.
+                The inauguration led the foundation for fostering technical excellence, collaborative learning,
+                and professional growth under the banner of CSI at CUJ.
+              </p>
+            </div>
+          </>
+        )}
 
-              {selectedEvent === 'day1' && (
-      <>
-        <h2 className="text-2xl font-bold mb-4">🔹 Day 1: National Seminar (27th February 2025)</h2>
-        <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
+        {selectedEvent === 'day1' && (
+        <>
+          <h2 className="text-2xl font-bold mb-4">Day 1: Seminar Inauguration & Paper Presentation</h2>
+          <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
 
           <p>
             The first day of the National Seminar was held at the Science Building (Academic Block-3) Auditorium, CUJ. 
@@ -185,7 +182,7 @@ const Events = () => {
           </p>
 
           <p >
-            <b>👥 Dignitaries Present:</b><br />
+            <b>Dignitaries Present:</b><br />
             &emsp;• <b>Prof. P. K. Panda</b>, Vice Chancellor (In-charge), CUJ<br />
             &emsp;• <b>Prof. Ajai Singh</b>, Dean, School of Engineering & Technology<br />
             &emsp;• <b>Prof. A. K. Nayak</b>, Advisor, IIBM & Former CSI President<br />
@@ -193,7 +190,7 @@ const Events = () => {
           </p>
 
           <p>
-            <b>🎤 Keynote Speakers:</b><br />
+            <b>Keynote Speakers:</b><br />
             &emsp;• <b>Prof. Ashutosh Kumar Singh</b> IIIT Bhopal, shared his vision on the role of AI and digital technologies in driving national innovation, urging students to actively pursue interdisciplinary research.<br />
             &emsp;• <b>Prof. A. K. Nayak</b> (Former CSI President) emphasized the long-standing contribution of CSI in professional development, and the importance of ethics and leadership in tech.
           </p>
@@ -203,120 +200,112 @@ const Events = () => {
           </p>
 
           <p>
-            <b>🎙️ Anchors of the Day:</b><br />
-            &emsp;• Aditya Ashish (President, Student Council)<br />
-            &emsp;• Shraddha Singh (Member, CSI Student Chapter)<br />
-            They maintained the flow of the program with confidence and clarity.
+            <b>Anchors of the day:</b><br />
+            &emsp;• Aditya Ashish, President, CSI-CUJ<br />
+            &emsp;• Shraddha Singh, Member, CSI-CUJ<br />
           </p>
           <p>
-            <b> CameraPerson of the Day:</b><br />
-            • Ujit Raj Rathore (Co-Technical 
-            secretary) <br />
+            <b> Camera Person of the Day:</b><br />
+            • Ujit Raj Rathore, Co-Technical Secretary, CSI-CUJ<br />
             
           </p>
 
           <p>
-            <b>📑 Research Paper Presentations:</b><br />
-            Over 35+ papers were presented in both offline and online modes, featuring innovative research in AI, cybersecurity, and machine learning.
+            <b>Research Paper Presentations:</b><br />
+            &emsp;Over 35+ papers were presented in both offline and online modes, featuring innovative research in AI, cybersecurity, and machine learning.
           </p>
 
           <p>
-            <b>🧾 Presentation Coordinators:</b><br />
-            <u>Online Sessions:</u><br />
-            • Ritu Kumari<br />
-            • Monalisha Anand<br />
-            • Ayesha Gupta<br />
-            <u>Offline Session:</u><br />
-            • Mansi Vats
+            <b>Presentation Coordinators:</b><br />
+            &emsp;<u>Online Sessions:</u><br />
+            &emsp;• Ritu Kumari<br />
+            &emsp;• Monalisha Anand<br />
+            &emsp;• Ayesha Gupta<br />
+            &emsp;<u>Offline Session:</u><br />
+            &emsp;• Mansi Vats
           </p>
 
           <p>
-            These coordinators ensured the smooth execution of sessions—managing time, presenters, and technical arrangements with precision and professionalism.
-          </p>
-
-          <p>
-            <b>👨‍🏫 Session Chairs & Review Panel Included:</b><br />
+            <b>Session Chairs & Review Panel Included:</b><br />
             Experts from institutions like VIT Vellore, IIIT Bhopal, NIAMT Ranchi, and other esteemed universities served as chairs and reviewers, offering valuable feedback.
           </p>
 
           <p>
             The day concluded with a Vote of Thanks by <b>Dr. Kanojia Sindhuben Babubal</b>, followed by the National Anthem, bringing the day to a dignified close.
           </p>
-        </div>
-      </>
+          </div>
+        </>
     )}
 
  {selectedEvent === 'day2' && (
   <>
-    <h2 className="text-2xl font-bold mb-4">🔹 Day 2: National Seminar (28th February, 2025)</h2>
+    <h2 className="text-2xl font-bold mb-4">Day 2: Expert Talks & Valedictory Session</h2>
     <div className="text-base text-justify space-y-4 max-h-[70vh] overflow-y-auto pr-2">
       <p>
-        The second day of the inaugural event hosted by the CSI Student Chapter was dedicated to the National Seminar on <b>Recent Advances in Artificial Intelligence, Cybersecurity, and Data Science</b>, held on 30th December 2024 at the Central University of Jharkhand.
+        The second day of the inaugural event hosted by the CSI Student Chapter was dedicated to the National Seminar on <b>"Recent Advances in Artificial Intelligence, Cybersecurity, and Data Science"</b>, held on 30th December 2024 at the Central University of Jharkhand.
       </p>
 
       <p>
-        The event witnessed distinguished experts from academia and industry who shared valuable insights into cutting-edge research and technological trends. The seminar was anchored in the morning session by <b>Mansi Vats</b> (Technical Secretary).
+        The event witnessed distinguished experts from academia and industry who shared valuable insights into cutting-edge research and technological trends. The seminar was anchored in the morning session by <b>Mansi Vats</b>, Technical Secretary, CSI-CUJ.
       </p>
 
       <p>
-        <b>🔸 Session I</b><br />
-        <b>Speaker:</b> Dr. Ashish Joshi<br />
-        <b>Affiliation:</b> Assistant Professor, University School of Automation and Robotics, GGSIPU (East Delhi Campus)<br />
-        <b>Topic:</b> Security in Wireless Networks and AI-driven Approaches<br />
-        Dr. Joshi discussed automation and the future of secure wireless systems using machine learning models. His session emphasized research directions in secure communications.
+        <b>Session I: </b><br />
+        &emsp;<b>Speaker:</b> Dr. Ashish Joshi, Asst. Prof., University School of Automation and Robotics, GGSIPU (East Delhi Campus).
+        <br/>&emsp;<b>Topic:</b> Security in Wireless Networks and AI-driven Approaches<br />
+        &emsp;Dr. Joshi discussed automation and the future of secure wireless systems using machine learning models. His session emphasized research directions in secure communications.
       </p>
 
       <p>
-        <b>🔸 Session II</b><br />
-        <b>Speaker:</b> Prof. Siba K. Udgata<br />
-        <b>Affiliation:</b> Professor, School of Computer and Information Sciences, University of Hyderabad<br />
-        <b>Topic:</b> Smart Systems and AI in Cybersecurity<br />
-        Prof. Udgata shared practical applications of AI in sensor networks, data fusion, and cybersecurity. He highlighted the scope of interdisciplinary research.
+        <b>Session II:</b><br />
+        <b>&emsp;Speaker:</b> Prof. Siba K. Udgata, Professor, School of Computer and Information Sciences, University of Hyderabad
+        <br/><b>&emsp;Topic:</b> Smart Systems and AI in Cybersecurity<br />
+        &emsp;Prof. Udgata shared practical applications of AI in sensor networks, data fusion, and cybersecurity. He highlighted the scope of interdisciplinary research.
       </p>
 
       <p>
-        <b>🔸 Session III</b><br />
-        <b>Speaker:</b> Dr. Bhaskar Mondal<br />
-        <b>Affiliation:</b> Assistant Professor, Department of CSE, NIT Patna<br />
-        <b>Topic:</b> Lightweight Cryptography and Secure Computation<br />
-        Dr. Mondal addressed the importance of cryptographic techniques in resource-constrained environments and introduced ML-based approaches in secure systems.
+        <b>Session III:</b><br />
+        &emsp;<b>Speaker:</b> Dr. Bhaskar Mondal,  Assistant Professor, Department of CSE, NIT Patna<br />
+        <br />&emsp;<b>Topic:</b> Lightweight Cryptography and Secure Computation<br />
+        &emsp;Dr. Mondal addressed the importance of cryptographic techniques in resource-constrained environments and introduced ML-based approaches in secure systems.
       </p>
 
       <p>
-        <b>🔸 Session IV</b><br />
-        <b>Speaker:</b> Mr. Gautam Hazari<br />
-        <b>Affiliation:</b> CTO, SEKURA Mobile Intelligence, UK<br />
-        <b>Topic:</b> Digital Identity & Passwordless Authentication<br />
-        In a virtual address, Mr. Hazari explored the global shift towards decentralized identity frameworks and security without passwords, with real-world applications.
+        <b>Session IV: </b><br />
+        <b>&emsp;Speaker:</b> Mr. Gautam Hazari,CTO, SEKURA Mobile Intelligence, UK<br />
+        <b>&emsp;Topic:</b> Digital Identity & Passwordless Authentication<br />
+        &emsp;In a virtual address, Mr. Hazari explored the global shift towards decentralized identity frameworks and security without passwords, with real-world applications.
       </p>
 
       <p>
-        <b>🔸 Valedictory Session</b><br />
-        <b>Anchored by:</b> Apurba Das and Hemant Prakash (Co-Technical Secretaries)
+        <b>Valedictory Session: </b><br />
+        <b>&emsp;Anchored by:</b><br/>
+        &emsp;• Apurba Das, Co-Technical Secretary, CSI-CUJ<br/>
+        &emsp;• Hemant Prakash, Co-Technical Secretary, CSI-CUJ
       </p>
 
       <p>
-        The closing session featured reflections and concluding remarks by:<br />
-        • Prof. S. C. Yadav – HoD, Computer Science (Convener)<br />
-        • Prof. Ajai Singh – Dean, SoET<br />
-        • Prof. Arun Kumar Padhy – Dean, R&D<br />
-        • Prof. Siba K. Udgata – Guest Speaker<br />
-        • Dr. Kanojia Sindhuben Babulal – Seminar Report Presentation
+      &emsp;<b>The concluding session featured reflections and concluding remarks by:</b><br />
+        &emsp;• Prof. S. C. Yadav, HoD, CSE, CUJ (Convener)<br />
+        &emsp;• Prof. Ajai Singh, Dean, School of Engineering, CUJ<br />
+        &emsp;• Prof. Arun Kumar Padhy, Dean, R&D<br />
+        &emsp;• Prof. Siba K. Udgata, Guest Speaker<br />
+        &emsp;• Dr. Kanojia Sindhuben Babulal, Seminar Report Presentation
       </p>
 
       <p>
-        <b>🏅 Best Paper Presenters:</b><br />
-        • Om Vishesh – AI-based Diabetic Retinopathy Diagnosis<br />
-        • Neha Kumari – Cybersecurity in E-Learning<br />
-        • Shreya Kumari – Quantum Computing and Cybersecurity
+        <b>&emsp;Best Paper Presenter Awardees:</b><br />
+        &emsp;• <b>Om Vishesh</b> for <b>AI-based Diabetic Retinopathy Diagnosis</b><br />
+        &emsp;• <b>Neha Kumari</b> for <b>Cybersecurity in E-Learning</b><br />
+        &emsp;• <b>Shreya Kumari</b> for<b> Quantum Computing and Cybersecurity</b>
       </p>
 
       <p>
         The session concluded with a <b>Vote of Thanks</b> by <b>Dr. Pushpendra Kumar</b> and the <b>National Anthem</b>, marking the end of a fruitful two-day academic celebration.
       </p>
     </div>
-  </>
-)}
+    </>
+    )}
 
         </EventModal>
       )}

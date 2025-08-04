@@ -22,7 +22,7 @@ const Members = () => {
 
       {/* Main content area */}
       <main className="pt-32 sm:pt-40 md:pt-48 lg:pt-56 relative z-10">
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4">
 
           {/* Title and Introduction */}
           <section className="text-center mb-16">

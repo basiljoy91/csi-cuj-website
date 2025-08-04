@@ -7,11 +7,12 @@ import InfoSection from '../components/InfoSection';
 import ProfileCard from '../components/ProfileCard';
 import CSEcuj from '../assets/Homepage/university_bg.jpg';
 import CUJimage from '../assets/Homepage/csecuj.jpg';
-import CSiLogo from '../assets/Homepage/csilogo.png';
+// import CSiLogo from '../assets/Homepage/csilogo.png';
 import hodImg from '../assets/hod_img.jpg';
 import vcImg from '../assets/vc_img.jpg';
 import kanojiaImg from '../assets/kanojia.jpg';
 import Footer from '../components/footer';
+import CSiLogo from '../assets/Homepage/images.png';
 
 const HomePage = () => {
   return (

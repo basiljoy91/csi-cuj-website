@@ -217,7 +217,7 @@ const Events = () => {
 
           <p>
             <b>📑 Research Paper Presentations:</b><br />
-            Over 35 papers were presented in both offline and online modes, featuring innovative research in AI, cybersecurity, and machine learning.
+            Over 35+ papers were presented in both offline and online modes, featuring innovative research in AI, cybersecurity, and machine learning.
           </p>
 
           <p>

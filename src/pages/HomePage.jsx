@@ -94,7 +94,7 @@ const HomePage = () => {
               <ProfileCard
                 image={kanojiaImg}
                 name="Dr. Kanojia Sindhuben Babulal"
-                title="Asst. Prof. &  Student Branch Counselor(SBC), CSI-CUJ"
+                title="Asst. Prof. &  Student Branch Counselor (SBC), CSI-CUJ"
                 description="Dr. Kanojia Sindhuben Babulal is an Asst. Professor in Department of Computer Science and Engineering at CUJ, Ranchi. She received her Ph.D in Computer Science in 2012 from University of Allahabad. Her area of interest includes Cross layer designs, Energy Efficient Wireless Networks, MANETs, Image Processing, ML."
               />
                 <ProfileCard
